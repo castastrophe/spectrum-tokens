@@ -1,0 +1,7 @@
+{
+  "type": "string",
+  "x-stoplight": { "id": "ok5va5n1wp727" },
+  "title": "typography-script",
+  "enum": ["latin", "han", "arabic", "hebrew"],
+  "default": "latin"
+}

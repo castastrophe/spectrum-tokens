@@ -1,0 +1,27 @@
+{
+  "title": "Color slider",
+  "description": "A color slider lets users visually change an individual channel of a color.",
+  "x-tags": ["inputs"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/color-slider/",
+  "type": "object",
+  "properties": {
+    "background": {
+      "type": "string",
+      "description": "This will vary depending on implementation."
+    },
+    "value": {
+      "type": "number",
+      "description": "Number (from minValue to maxValue)"
+    },
+    "minValue": { "type": "number", "default": 0 },
+    "maxValue": { "type": "number", "default": 100 },
+    "step": { "type": "number", "default": 1 },
+    "orientation": {
+      "type": "string",
+      "enum": ["horizontal", "vertical"],
+      "default": "horizontal"
+    },
+    "length": { "type": "number", "default": 192, "description": "units: px" },
+    "isDisabled": { "type": "boolean", "default": false }
+  }
+}

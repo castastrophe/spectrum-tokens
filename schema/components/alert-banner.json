@@ -1,0 +1,21 @@
+{
+  "title": "Alert banner",
+  "description": "Alert banners show pressing and high-signal messages, such as system alerts. They're meant to be noticed and prompt users to take action.",
+  "x-tags": ["feedback"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/alert-banner/",
+  "type": "object",
+  "properties": {
+    "text": { "type": "string" },
+    "variant": {
+      "type": "string",
+      "enum": ["neutral", "informative", "negative"],
+      "default": "neutral"
+    },
+    "actionLabel": {
+      "type": "string",
+      "description": "If undefined, this button does not appear."
+    },
+    "isDismissible": { "type": "boolean", "default": false }
+  },
+  "required": ["text"]
+}

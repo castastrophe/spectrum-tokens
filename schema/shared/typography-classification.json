@@ -1,0 +1,6 @@
+{
+  "type": "string",
+  "title": "typography-classification",
+  "enum": ["serif", "sans serif"],
+  "default": "sans serif"
+}

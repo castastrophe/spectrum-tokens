@@ -1,0 +1,16 @@
+{
+  "title": "Avatar",
+  "description": "An avatar is a thumbnail representation of an entity, such as a user or an organization.",
+  "x-tags": ["navigation"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/avatar/",
+  "type": "object",
+  "properties": {
+    "size": {
+      "type": "number",
+      "enum": [50, 75, 100, 200, 300, 400, 500, 600, 700],
+      "default": 100
+    },
+    "image": { "type": ["string", "null"] },
+    "isDisabled": { "type": "boolean", "default": false }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Checkbox group",
+  "description": "A checkbox group is a grouping of checkboxes that are related to each other.",
+  "x-tags": ["inputs"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/checkbox-group/",
+  "type": "object",
+  "properties": {
+    "label": { "type": "string" },
+    "labelPosition": {
+      "type": "string",
+      "enum": ["top", "side"],
+      "default": "top"
+    },
+    "necessityIndicator": {
+      "type": ["string", "null"],
+      "enum": ["text", "icon"],
+      "default": "icon"
+    },
+    "isRequired": { "type": "boolean", "default": false },
+    "orientation": {
+      "type": "string",
+      "enum": ["horizontal", "vertical"],
+      "default": "vertical"
+    },
+    "isError": { "type": "boolean", "default": false },
+    "isDisabled": { "type": "boolean", "default": false },
+    "isReadOnly": { "type": "boolean", "default": false },
+    "description": { "type": "string" },
+    "errorMessage": { "type": "string" }
+  }
+}

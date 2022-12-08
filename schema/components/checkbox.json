@@ -1,0 +1,42 @@
+{
+  "title": "Checkbox",
+  "description": "Checkboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.",
+  "x-tags": ["inputs"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/checkbox/",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string"
+    },
+    "isSelected": {
+      "type": "boolean",
+      "default": false
+    },
+    "isIndeterminate": {
+      "type": "boolean",
+      "default": false
+    },
+    "size": {
+      "type": "string",
+      "enum": ["s", "m", "l", "xl"],
+      "default": "m"
+    },
+    "isEmphasized": {
+      "type": "boolean",
+      "default": false
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "isError": {
+      "type": "boolean",
+      "default": false
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": ["size"]
+}

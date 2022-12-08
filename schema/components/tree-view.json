@@ -1,0 +1,28 @@
+{
+  "title": "Tree view",
+  "description": "A tree view provides users with a way to navigate nested hierarchical information.",
+  "x-tags": ["navigation"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/tree-view/",
+  "type": "object",
+  "properties": {
+    "size": { "type": "string", "enum": ["s", "m", "l", "xl"], "default": "m" },
+    "isDetached": { "type": "boolean", "default": false },
+    "emphasized": { "type": "boolean", "default": false },
+    "showDragIcon": { "type": "boolean", "default": false },
+    "selectionMode": {
+      "type": "string",
+      "enum": ["single", "multiple"],
+      "default": "multiple"
+    },
+    "selectionStyle": {
+      "type": "string",
+      "enum": ["checkbox", "highlight"],
+      "default": "checkbox"
+    },
+    "selectionBehavior": {
+      "type": "string",
+      "enum": ["toggle", "replace"],
+      "default": "toggle"
+    }
+  }
+}

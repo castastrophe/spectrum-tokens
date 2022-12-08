@@ -1,0 +1,20 @@
+{
+  "title": "Toast",
+  "description": "Toasts display brief, temporary notifications. They're meant to be noticed without disrupting a user's experience or requiring an action to be taken.",
+  "x-tags": ["feedback"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/toast/",
+  "type": "object",
+  "properties": {
+    "text": { "type": "string" },
+    "variant": {
+      "type": "string",
+      "enum": ["neutral", "informative", "positive", "negative"],
+      "default": "neutral"
+    },
+    "actionLabel": {
+      "type": "string",
+      "description": "If undefined, this button does not appear."
+    },
+    "isAutoDismissible": { "type": "boolean", "default": false }
+  }
+}

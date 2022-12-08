@@ -1,0 +1,30 @@
+{
+  "title": "Progress circle",
+  "description": "Progress circles show the progression of a system operation such as downloading, uploading, processing, etc. in a visual way. They can represent determinate or indeterminate progress.",
+  "x-tags": ["status"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/progress-circle/",
+  "type": "object",
+  "properties": {
+    "variant": {
+      "type": "string",
+      "enum": ["default", "over background"],
+      "default": "default"
+    },
+    "value": {
+      "type": "number",
+      "description": "Not applicable when indeterminate."
+    },
+    "minValue": {
+      "type": "number",
+      "default": 0,
+      "description": "Not applicable when indeterminate."
+    },
+    "maxValue": {
+      "type": "number",
+      "default": 1,
+      "description": "Not applicable when indeterminate."
+    },
+    "size": { "type": "string", "enum": ["s", "m", "l"], "default": "m" },
+    "isIndeterminate": { "type": "boolean", "default": false }
+  }
+}

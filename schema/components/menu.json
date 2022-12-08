@@ -1,0 +1,32 @@
+{
+  "title": "Menu",
+  "description": "Menus help users take actions, choose from a list of options, configure settings, and more. They can be placed in a transient container, like a popover or tray.",
+  "x-tags": ["actions"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/menu/",
+  "type": "object",
+  "properties": {
+    "container": {
+      "type": ["string", "null"],
+      "enum": ["popover", "tray"],
+      "default": null
+    },
+    "label": { "type": "string" },
+    "icon": {
+      "$ref": "../shared/workflow-icon.json",
+      "description": "Icon must be present if the label is not defined."
+    },
+    "description": { "type": ["string", "null"] },
+    "value": { "type": ["string", "null"] },
+    "size": { "type": "string", "enum": ["s", "m", "l", "xl"], "default": "m" },
+    "selectionMode": {
+      "type": ["string", "null"],
+      "enum": ["single", "multiple"],
+      "default": null
+    },
+    "selectionStyle": { "type": "string", "enum": ["checkbox", "switch"] },
+    "sectionHeader": { "type": ["string", "null"] },
+    "isCollapsible": { "type": "boolean", "default": false },
+    "isUnavailable": { "type": "boolean", "default": false },
+    "isDisabled": { "type": "boolean", "default": false }
+  }
+}

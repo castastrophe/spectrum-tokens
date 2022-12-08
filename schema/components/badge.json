@@ -1,0 +1,17 @@
+{
+  "title": "Body",
+  "x-stoplight": { "id": "347ldn3r0a54l" },
+  "type": "object",
+  "x-tags": ["typography"],
+  "description": "Body is a typography component primarily used within Spectrum components and for blocks of text.",
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/body/",
+  "properties": {
+    "script": { "$ref": "../shared/typography-script.json" },
+    "classification": { "$ref": "../shared/typography-classification.json" },
+    "size": {
+      "type": "string",
+      "enum": ["xs", "s", "m", "l", "xl", "xxl", "xxxl"],
+      "default": "m"
+    }
+  }
+}

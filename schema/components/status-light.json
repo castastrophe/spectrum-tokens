@@ -1,0 +1,31 @@
+{
+  "title": "Status light",
+  "description": "Status lights describe the condition of an entity. They can be used to convey semantic meaning, such as statuses and categories.",
+  "x-tags": ["status"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/status-light/",
+  "type": "object",
+  "properties": {
+    "label": { "type": "string" },
+    "variant": {
+      "type": "string",
+      "enum": [
+        "informative",
+        "neutral",
+        "positive",
+        "notice",
+        "negative",
+        "indigo",
+        "celery",
+        "chartreuse",
+        "yellow",
+        "magenta",
+        "fuchsia",
+        "purple",
+        "seafoam"
+      ],
+      "default": "informative"
+    },
+    "size": { "type": "string", "enum": ["s", "m", "l", "xl"], "default": "m" },
+    "isDisabled": { "type": "boolean", "default": false }
+  }
+}

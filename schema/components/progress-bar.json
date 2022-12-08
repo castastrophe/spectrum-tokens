@@ -1,0 +1,33 @@
+{
+  "title": "Progress bar",
+  "description": "Progress bars show the progression of a system operation: downloading, uploading, processing, etc., in a visual way. They can represent either determinate or indeterminate progress.",
+  "x-tags": ["status"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/progress-bar/",
+  "type": "object",
+  "properties": {
+    "variant": {
+      "type": "string",
+      "enum": ["default", "over background"],
+      "default": "default"
+    },
+    "label": { "type": "string" },
+    "value": {
+      "type": "number",
+      "description": "Not applicable when indeterminate."
+    },
+    "minValue": {
+      "type": "number",
+      "default": 0,
+      "description": "Not applicable when indeterminate."
+    },
+    "maxValue": {
+      "type": "number",
+      "default": 1,
+      "description": "Not applicable when indeterminate."
+    },
+    "valueLabel": { "type": "string" },
+    "width": { "type": "number" },
+    "size": { "type": "string", "enum": ["s", "m", "l", "xl"], "default": "m" },
+    "isIndeterminate": { "type": "boolean", "default": false }
+  }
+}

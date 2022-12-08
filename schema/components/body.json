@@ -1,0 +1,16 @@
+{
+  "title": "Body",
+  "description": "Body is a typography component primarily used within Spectrum components and for blocks of text.",
+  "x-tags": ["typography"],
+  "x-spectrum-website-url": "https://spectrum.adobe.com/page/body/",
+  "type": "object",
+  "properties": {
+    "script": { "$ref": "../shared/typography-script.json" },
+    "classification": { "$ref": "../shared/typography-classification.json" },
+    "size": {
+      "type": "string",
+      "enum": ["xs", "s", "m", "l", "xl", "xxl", "xxxl"],
+      "default": "m"
+    }
+  }
+}
