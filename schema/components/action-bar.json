@@ -1,7 +1,7 @@
 {
   "title": "Action bar",
   "description": "Action bars are used for single and bulk selection patterns, when a user needs to perform actions on either a single or multiple items at the same time.",
-  "x-tags": ["actions"],
+  "x-category": "actions",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/action-bar/",
   "type": "object",
   "properties": {

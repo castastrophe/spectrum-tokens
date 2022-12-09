@@ -1,7 +1,7 @@
 {
   "title": "Action group",
   "description": "An action group is a grouping of action buttons that are related to each other.",
-  "x-tags": ["actions"],
+  "x-category": "actions",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/action-group/",
   "type": "object",
   "properties": {

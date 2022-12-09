@@ -1,7 +1,7 @@
 {
   "title": "Toast",
   "description": "Toasts display brief, temporary notifications. They're meant to be noticed without disrupting a user's experience or requiring an action to be taken.",
-  "x-tags": ["feedback"],
+  "x-category": "feedback",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/toast/",
   "type": "object",
   "properties": {

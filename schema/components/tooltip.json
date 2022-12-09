@@ -1,7 +1,7 @@
 {
   "title": "Tooltip",
   "description": "Tooltips show contextual help or information about specific components when a user hovers or focuses on them.",
-  "x-tags": ["feedback"],
+  "x-category": "feedback",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/tooltip/",
   "type": "object",
   "properties": {

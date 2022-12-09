@@ -1,7 +1,7 @@
 {
   "title": "Scroll-zoom bar",
   "description": "Primarily for usage in timelines, a scroll-zoom bar lets a user scroll or zoom with the same control.",
-  "x-tags": ["navigation"],
+  "x-category": "navigation",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/scroll-zoom-bar/",
   "type": "object",
   "properties": {

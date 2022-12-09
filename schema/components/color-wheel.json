@@ -1,7 +1,7 @@
 {
   "title": "Color wheel",
   "description": "A color wheel lets users visually change an individual channel of a color on a circular track.",
-  "x-tags": ["inputs"],
+  "x-category": "inputs",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/color-wheel/",
   "type": "object",
   "properties": {

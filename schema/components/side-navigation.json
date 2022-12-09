@@ -2,6 +2,6 @@
   "title": "Side navigation",
   "description": "Side navigation lets users navigate the entire content of a product or a section. These can be used for a single level or a multi-level navigation.",
   "type": "object",
-  "x-tags": ["navigation"],
+  "x-category": "navigation",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/side-navigation/"
 }

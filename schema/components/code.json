@@ -1,7 +1,7 @@
 {
   "title": "Code",
   "description": "Detail is a typography component used for disclosing extra information or smaller items in hierarchical relationships of text.",
-  "x-tags": ["typography"],
+  "x-category": "typography",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/code/",
   "type": "object",
   "properties": {

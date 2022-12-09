@@ -2,15 +2,13 @@
   "title": "Close button",
   "description": "The close button is used inside of other components, like a toast or an action bar, for closing or dismissing its parent component.",
   "type": "object",
-  "x-tags": ["actions"],
+  "x-category": "actions",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/close-button/",
   "properties": {
     "size": { "type": "string", "enum": ["s", "m", "l", "xl"], "default": "m" },
     "iconSize": { "type": "string" },
     "staticColor": {
-      "type": ["string", "null"],
-      "enum": ["white", "black"],
-      "default": null
+      "$ref": "../shared/static-color.json"
     },
     "isDisabled": { "type": "boolean", "default": false }
   }

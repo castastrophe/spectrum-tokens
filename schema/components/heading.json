@@ -1,7 +1,7 @@
 {
   "title": "Heading",
   "description": "Heading is a typography component used to create various levels of hierarchies between text.",
-  "x-tags": ["typography"],
+  "x-category": "typography",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/heading/",
   "type": "object",
   "properties": {

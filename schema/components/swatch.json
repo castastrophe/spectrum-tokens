@@ -1,7 +1,7 @@
 {
   "title": "Swatch",
   "description": "A swatch shows a small sample of a fill — such as a color, gradient, texture, or material — that is intended to be applied to an object.",
-  "x-tags": ["inputs"],
+  "x-category": "inputs",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/swatch/",
   "type": "object",
   "properties": {

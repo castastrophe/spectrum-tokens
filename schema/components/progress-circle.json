@@ -1,7 +1,7 @@
 {
   "title": "Progress circle",
   "description": "Progress circles show the progression of a system operation such as downloading, uploading, processing, etc. in a visual way. They can represent determinate or indeterminate progress.",
-  "x-tags": ["status"],
+  "x-category": "status",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/progress-circle/",
   "type": "object",
   "properties": {

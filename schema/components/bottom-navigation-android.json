@@ -1,7 +1,7 @@
 {
   "title": "Bottom navigation (Android)",
   "description": "Bottom navigation is a top-level navigation control for Android apps.",
-  "x-tags": ["navigation"],
+  "x-category": "navigation",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/bottom-navigation-android/",
   "type": "object",
   "properties": {

@@ -1,7 +1,7 @@
 {
   "title": "Link",
   "description": "Links allow users to navigate to a different location. They can be presented inside a paragraph or as standalone text.",
-  "x-tags": ["actions"],
+  "x-category": "actions",
   "x-spectrum-website-url": "https://spectrum.adobe.com/page/link/",
   "type": "object",
   "properties": {
@@ -12,9 +12,7 @@
     },
     "isQuiet": { "type": "boolean", "default": false },
     "staticColor": {
-      "type": ["string", "null"],
-      "enum": ["white", "black"],
-      "default": null
+      "$ref": "../shared/static-color.json"
     }
   }
 }
