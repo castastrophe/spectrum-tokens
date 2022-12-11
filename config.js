@@ -24,7 +24,7 @@ StyleDictionary.registerFormat(JsonSetsFormatter);
 StyleDictionary.registerFormat(DroverJsonFormatter);
 
 module.exports = {
-  source: ["src/**/*.json"],
+  source: ["tokens/**/*.json"],
   platforms: {
     JSON: {
       buildPath: "dist/json/",
