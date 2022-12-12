@@ -34,6 +34,7 @@
       "default": false
     },
     "isReadOnly": {
+      "label": "is read only",
       "type": "boolean",
       "default": false
     }

@@ -1,0 +1,197 @@
+<!doctype html>
+<html class="spectrum spectrum--light spectrum--medium" dir="ltr">
+<head>
+  <title>Checkbox</title>
+  <link rel="stylesheet" href="https://unpkg.com/@spectrum-css/vars@8.0.0/dist/spectrum-global.css">
+  <link rel="stylesheet" href="https://unpkg.com/@spectrum-css/vars@8.0.0/dist/spectrum-medium.css">
+  <link rel="stylesheet" href="https://unpkg.com/@spectrum-css/vars@8.0.0/dist/spectrum-light.css">
+  <link rel="stylesheet" href="https://unpkg.com/@spectrum-css/page@5.0.12/dist/index-vars.css">
+  <link rel="stylesheet" href="https://unpkg.com/@spectrum-css/table@4.0.20/dist/index-vars.css">
+  <link rel="stylesheet" href="https://unpkg.com/@spectrum-css/typography@4.0.21/dist/index-vars.css">
+  <link rel="stylesheet" href="https://use.typekit.net/bbk5msc.css" />
+  <style media="screen">
+    .description {
+      color: var(--spectrum-global-color-gray-700);
+    }
+  </style>
+</head>
+<body>
+  <h1 class="spectrum-Heading spectrum-Heading--sizeXXL spectrum-Heading--serif">Checkbox</h1>
+  <p class="spectrum-Body spectrum-Body--sizeS">Checkboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.</p>
+  <br><br>
+  <table class="spectrum-Table spectrum-Table--sizeM">
+    <thead class="spectrum-Table-head">
+      <tr>
+        <th class="spectrum-Table-headCell">Property</th>
+        <th class="spectrum-Table-headCell">Values</th>
+        <th class="spectrum-Table-headCell">Default Value</th>
+        <th class="spectrum-Table-headCell">Required</th>
+      </tr>
+    </thead>
+    <tbody class="spectrum-Table-body">
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">label</td>
+        <td class="spectrum-Table-cell">
+          <div>text</div>
+          <p class="spectrum-Body spectrum-Body--sizeXS description">When the label is not defined, the checkbox appears as a standalone checkbox.</p>
+        </td>
+        <td class="spectrum-Table-cell"></td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">is selected
+        </td>
+        <td class="spectrum-Table-cell">yes / no
+        </td>
+        <td class="spectrum-Table-cell">no</td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">is indeterminate</td>
+        <td class="spectrum-Table-cell">
+          <div>yes / no</div>
+          <p class="spectrum-Body spectrum-Body--sizeXS description">When a checkbox is indeterminate, it overrides the selection state.</p>
+        </td>
+        <td class="spectrum-Table-cell">no</td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">size</td>
+        <td class="spectrum-Table-cell">small / medium / large / extra-large</td>
+        <td class="spectrum-Table-cell">medium</td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">is emphasized</td>
+        <td class="spectrum-Table-cell">yes / no</td>
+        <td class="spectrum-Table-cell">no</td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">is disabled</td>
+        <td class="spectrum-Table-cell">yes / no</td>
+        <td class="spectrum-Table-cell">no</td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">is error</td>
+        <td class="spectrum-Table-cell">yes / no</td>
+        <td class="spectrum-Table-cell">no</td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">is read-only</td>
+        <td class="spectrum-Table-cell">yes / no</td>
+        <td class="spectrum-Table-cell">no</td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+    </tbody>
+  </table>
+  <br><br>
+  <table class="spectrum-Table spectrum-Table--sizeM">
+    <thead class="spectrum-Table-head">
+      <tr>
+        <th class="spectrum-Table-headCell">Property</th>
+        <th class="spectrum-Table-headCell">Type</th>
+        <th class="spectrum-Table-headCell">Default Value</th>
+        <th class="spectrum-Table-headCell">Required</th>
+      </tr>
+    </thead>
+    <tbody class="spectrum-Table-body">
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">label</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">string</code>
+          <p class="spectrum-Body spectrum-Body--sizeXS description">When the label is not defined, the checkbox appears as a standalone checkbox.</p>
+        </td>
+        <td class="spectrum-Table-cell"></td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">isSelected</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">boolean</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">false</code>
+        </td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell"><code class="spectrum-Code spectrum-Code--sizeS">isIndeterminate</code></td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">boolean</code>
+          <p class="spectrum-Body spectrum-Body--sizeXS description">When a checkbox is indeterminate, it overrides the selection state.</p>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">false</code>
+        </td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">size</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">enum ["s", "m", "l", "xl"]</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">m</code>
+        </td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">isEmphasized</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">boolean</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">false</code>
+        </td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">isDisabled</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">boolean</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">false</code>
+        </td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">isError</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">boolean</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">false</code>
+        </td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+      <tr class="spectrum-Table-row">
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">isReadOnly</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">boolean</code>
+        </td>
+        <td class="spectrum-Table-cell">
+          <code class="spectrum-Code spectrum-Code--sizeS">false</code>
+        </td>
+        <td class="spectrum-Table-cell"></td>
+      </tr>
+    </tbody>
+  </table>
+</html>
