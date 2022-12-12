@@ -1,9 +1,9 @@
 const Ajv = require("ajv");
-const fs = require("fs").promises;
+const { readFile } = require("fs").promises;
 const path = require("path");
 
 const readJSON = async (filePath) =>
-  JSON.parse(await fs.readFile(filePath, "utf8"));
+  JSON.parse(await readFile(filePath, "utf8"));
 
 const ajv = new Ajv({ loadSchema, useDefaults: true });
 ajv.addVocabulary([

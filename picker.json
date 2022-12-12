@@ -1,1 +1,1315 @@
-{"id":"0859f1b5-45a4-4b3a-96f5-cec894071927","title":"Picker","slug":"picker","site":"internal and public","release_status":"released","search_category":"components","search_tags":["select","dropdown","selection","picker","list","options"],"show_issues":false,"description":"Pickers (sometimes known as \"dropdowns\" or \"selects\") allow users to choose from a list of options in a limited space. The list of options can change based on the context.","hero_image_style":"standard","table_of_contents":true,"component":true,"all_interactive_states":"yes","all_color_themes":"yes","all_platform_scales":"yes","defined_behaviors":"yes","usage_guidelines":"yes","internationalization_guidelines":"yes","keyboard_interactions":"yes","design_tokens":"yes","generated_ui_kit":"yes","isdeprecated":false,"defined_options":"yes","accessible_contrast_text":"yes","accessible_contrast_ui_components":"no","accessible_use_color":"yes","ui_kit":"yes","writing_guidelines":"yes","content_design":"yes","xd_plugin":"yes","spectrum_design":"yes","spectrum_dna":"https://git.corp.adobe.com/pages/Spectrum/dss-docs/spectrum-components/components/picker.html","spectrum_css":"https://opensource.adobe.com/spectrum-css/picker.html","react_spectrum_v2":"https://react-spectrum.corp.adobe.com/storybook/?path=/story/select--default","react_spectrum_v3":"https://react-spectrum.adobe.com/react-spectrum/Picker.html","spectrum_web_components":"https://opensource.adobe.com/spectrum-web-components/components/picker","spectrum_windows":"https://git.corp.adobe.com/spectrum-components/spectrum-uwp/wiki/API-Reference#spectrum-dropdown","spectrum_macos":"no","spectrum_ios":"https://git.corp.adobe.com/spectrum-components/spectrum-apple/wiki/Spectrum-Dropdown","spectrum_android":"https://git.corp.adobe.com/spectrum-components/spectrum-android/wiki/API-Reference#spectrum-dropdown","drover_v7":"https://wiki.corp.adobe.com/display/drover/Drover+Spectrum","spectrum_uxp":"https://git.corp.adobe.com/pages/uxp/docs/spectrum_uxp/spectrum_uxp_user_interface/#sp-dropdown","hero_image_desktop":{"width":1952,"id":"2c5220a5-1c1d-4d69-867e-c370f9653542","filename_download":"picker_hero@2x.png","height":720,"description":"Image illustrating pickers in open and closed states. Picker in closed state, label Transition selected value None. Picker in open state, label Easing, selected value Ease out, other menu options Ease in, Ease out, Ease in-out, None.","modified_on":"2022-04-08T19:53:25.229Z","folder":null},"hero_image_mobile":null,"versions":[{"date":"2021-12-03","id":"0b6adec2-7023-41dd-8ab3-cd0d42778395","notes":"- Moved placement of checkmark to left side of menu items","version":"6.0.2","pending":true,"file":null,"express":null},{"date":"2022-04-06","id":"1a33c14b-1b12-4b3f-bdfd-68ed89bb44b4","notes":"- Updated all colors to 6.0.0","version":"8.0.0","pending":false,"file":{"width":null,"id":"14312e79-5144-4499-899c-0d7a721e9dce","filename_download":"Picker-spectrum-v8.1.2.xd","height":null,"description":null,"modified_on":"2022-04-27T17:37:18.683Z","folder":null},"express":null},{"date":"2022-02-07","id":"66751480-4eac-4ff3-bd35-b77c0c8fd826","notes":"- Updated read-only option design","version":"7.0.0","pending":false,"file":{"width":null,"id":"a090a11b-4dcc-484c-8489-631f4db479b0","filename_download":"Picker-v7.0.0.xd","height":null,"description":null,"modified_on":"2022-02-15T20:19:04.312Z","folder":null},"express":null},{"date":"2019-04-19","id":"84f27d9b-c871-4c15-a8cb-79639a5d2649","notes":"- This component is now individually versioned (individual versions of existing components start at 5.0.0)\n- Added RTL (right-to-left) guidelines","version":"5.0.0","pending":false,"file":{"width":null,"id":"19394135-c4f3-496c-ba2b-4e49518e0fec","filename_download":"Picker-v5.0.0.xd","height":null,"description":"Picker-v5.0.0.xd","modified_on":"2021-01-25T23:52:27.005Z","folder":{"id":"e52fef68-47d8-4562-9259-4c45a16a0f86","name":"xd-files"}},"express":null},{"date":"2018-08-22","id":"9320df88-ab13-4727-9d16-907002072f84","notes":"- Added text overflow behavior","version":"5.1.0","pending":false,"file":{"width":null,"id":"812ae7c0-1221-4026-b479-09e4b78ed74d","filename_download":"Picker-v5.1.0.xd","height":null,"description":"Picker-v5.1.0.xd","modified_on":"2021-01-25T23:52:23.241Z","folder":{"id":"e52fef68-47d8-4562-9259-4c45a16a0f86","name":"xd-files"}},"express":null},{"date":"2020-04-23","id":"a582556d-1f90-43dd-8dcd-9f68d064c761","notes":"- \"Dropdown\" has been renamed to \"picker\"","version":"6.0.0","pending":false,"file":{"width":null,"id":"735e1a82-1082-4064-9514-11bc8083502e","filename_download":"Picker-v6.0.0.xd","height":null,"description":"Picker-v6.0.0.xd","modified_on":"2021-01-25T23:52:32.330Z","folder":{"id":"e52fef68-47d8-4562-9259-4c45a16a0f86","name":"xd-files"}},"express":null},{"date":"2018-08-13","id":"c0ea551a-ff82-4977-93e9-9b5cb1a38c99","notes":"- Changed selected item text color from blue 500 to gray 800","version":"5.0.1","pending":false,"file":{"width":null,"id":"197afe53-3ffe-44d6-bb22-86d25f53c8a9","filename_download":"Picker-v5.0.1.xd","height":null,"description":"Picker-v5.0.1.xd","modified_on":"2021-01-25T23:52:25.029Z","folder":{"id":"e52fef68-47d8-4562-9259-4c45a16a0f86","name":"xd-files"}},"express":null},{"date":"2021-02-26","id":"c9bb72c2-a835-458a-9e84-d120d19708a7","notes":"- Updated placeholder text color for higher contrast","version":"6.0.1","pending":false,"file":{"width":null,"id":"5662ae2c-b593-4b21-a3c1-733e8c8767c7","filename_download":"Picker-v6.0.1.xd","height":null,"description":null,"modified_on":"2021-02-26T18:09:16.194Z","folder":null},"express":null},{"date":"2019-02-26","id":"d569d35d-e705-454c-a48b-dd3580d8cee4","notes":"- Added read-only option\n- Updated border color to be more accessible","version":"5.2.0","pending":false,"file":{"width":null,"id":"95b78351-f9ad-45ee-a3bc-f92f8a03d705","filename_download":"Picker-v5.2.0.xd","height":null,"description":"Picker-v5.2.0.xd","modified_on":"2021-01-25T23:52:29.595Z","folder":{"id":"e52fef68-47d8-4562-9259-4c45a16a0f86","name":"xd-files"}},"express":null},{"date":"2022-02-24","id":"fa7d58ae-d83c-4192-9a3e-744bc3ee7091","notes":"- Added size option","version":"7.1.0","pending":false,"file":{"width":null,"id":"9862021a-a542-461f-a5b4-5b0c8e09eaae","filename_download":"Picker-v7.1.0.xd","height":null,"description":null,"modified_on":"2022-02-24T22:03:36.905Z","folder":null},"express":null}],"header_components":[],"sections":[{"id":22101,"sort":0,"section":{"id":"0a7e2db8-1b1e-4962-8e25-4e7f4b8ea05e","title":"Anatomy","text":null,"visibility":"all","display_title":true,"content":[{"id":41575,"sort":0,"collection":"visual","item":{"id":"3f710423-f774-4143-b2e6-03277479eca8","title":"Picker anatomy","show_title_on_website":false,"image_style":"anatomy","background_color":null,"caption":null,"desktop_image":{"width":1952,"id":"ef668220-d1d7-4397-a02f-a625f5e643d5","filename_download":"picker_anatomy_desktop.png","height":768,"description":"Image illustrating through labels the component parts of a picker in its open and closed states, including its label, required asterisk, field button, chevron, menu, menu options, and help text with description or error message.","modified_on":"2021-12-03T22:57:03.467Z","folder":null},"mobile_image":{"width":1952,"id":"8886f1d9-6234-40a1-b2d4-537c393d6f99","filename_download":"picker_anatomy_mobile.png","height":1040,"description":"Image illustrating through labels the component parts of a picker in its open and closed states, including its label, required asterisk, field button, chevron, menu, menu options, and help text with description or error message.","modified_on":"2021-12-03T22:57:03.455Z","folder":null}}}]}},{"id":22102,"sort":1,"section":{"id":"6c4d79a4-9629-4db2-a74b-b54bf1aaed57","title":"Options","text":null,"visibility":"all","display_title":true,"content":[{"id":41576,"sort":1,"collection":"options","item":{"id":"d3e5588b-ef7d-4287-8a83-94f1bf5bd5a9","title":"Label","text":"Pickers should always have a label. In rare cases where context is sufficient and an accessibility expert has reviewed the design, the label could be undefined. These pickers without a visible label should still include an aria-label in HTML (depending on the context, “aria-label” or “aria-labelledby”).","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"54af98b0-8bab-450c-a212-37fda0819013","filename_download":"picker_options_label@2x.png","height":320,"description":"Key example of a picker with a label. A picker in the closed state with the label Country and placeholder text Select a country, followed by ellipsis.","modified_on":"2022-04-08T19:53:25.299Z","folder":null},"mobile_image":null}},{"id":41577,"sort":2,"collection":"options","item":{"id":"a6f4f3c4-5a6f-41b1-a336-1654f5dfbba5","title":"Label position","text":"Labels can be placed  either on top or on the side. Top labels are the default and are recommended because they work better with long copy, localization, and responsive layouts. Side labels are most useful when vertical space is limited.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"46a6b5a9-78b5-4d72-b8bb-a7333991fddb","filename_download":"picker_options_label-position@2x.png","height":432,"description":"Key example of 2 pickers with different label positions. A picker in the closed state with the label Country placed above it. A picker in the closed state with the label Country placed on the left side of the picker.","modified_on":"2022-04-08T19:53:25.362Z","folder":null},"mobile_image":null}},{"id":41578,"sort":3,"collection":"options","item":{"id":"902b67b6-1db9-458a-a267-dd6d8fa87bef","title":"Placeholder","text":"The placeholder text, also commonly known as “ghost text,” prompts a user to select an option from the picker menu. It disappears once a user selects an option.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"3caf903b-ba29-4080-9e1e-9916c0f3ef31","filename_download":"picker_options_placeholder@2x.png","height":320,"description":"Key example of a picker with a placeholder. A picker in the closed state with the label Country and placeholder text Select a country, followed by ellipsis.","modified_on":"2022-04-08T19:53:25.417Z","folder":null},"mobile_image":null}},{"id":41579,"sort":4,"collection":"options","item":{"id":"23239ccc-c2a7-432d-a493-ccf105b4f978","title":"Value","text":"The value shows the option that a user has selected.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"129a2624-2924-4cd6-8463-15e5169c72bd","filename_download":"picker_options_value@2x.png","height":320,"description":"Key example of a picker with a selected value. A picker in the closed state with the label Country and a selected value of United States.","modified_on":"2022-04-08T19:53:25.489Z","folder":null},"mobile_image":null}},{"id":41580,"sort":5,"collection":"options","item":{"id":"976e1a10-2451-4295-8deb-aadc52d3cdb4","title":"Width","text":"The width of a picker can be customized appropriately for its context. This option is not applicable to quiet pickers.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"2efc4cd6-1007-476b-969e-8cca27d7ea1a","filename_download":"picker_options_width@2x.png","height":464,"description":"Key example of a picker with customized width, showing two pickers of different widths.","modified_on":"2022-04-08T19:53:25.549Z","folder":null},"mobile_image":null}},{"id":44901,"sort":6,"collection":"options","item":{"id":"24bfb657-5f0c-4760-bfb1-4d947cad46ac","title":"Size","text":"Pickers come in four different sizes: small, medium, large, and extra-large. The medium size is the default and most frequently used option. Use the other sizes sparingly; they should be used to create a hierarchy of importance within the page.","image_style":"standard","image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"b7ebdd5b-7cfe-4932-b2c1-6a1773ba2f9c","filename_download":"picker_options_size@2x.png","height":816,"description":"Key example of four pickers with top labels showing the size options available including small, medium, large, and extra-large. UI text is: label, Country. Selected option, Select a country.","modified_on":"2022-04-08T19:53:25.637Z","folder":null},"mobile_image":null}},{"id":41581,"sort":7,"collection":"options","item":{"id":"58711156-980e-4a5a-8b65-d3f4e02d55a4","title":"Quiet","text":"By default, pickers have a visible background. This style works best in a dense array of controls where the background helps to separate the input from the surrounding container, or to give visibility to isolated buttons.\n\nAlternatively, quiet pickers can have no visible background. This style works best when a clear layout (vertical stack, table, grid) makes it easy to parse the buttons. Too many quiet components in a small space can be hard to read.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"368cf68c-89bf-4a66-9f20-ea162276648b","filename_download":"picker_options_quiet@2x.png","height":448,"description":"Key example comparing a non-quiet and a quiet picker.","modified_on":"2022-04-08T19:53:25.698Z","folder":null},"mobile_image":null}},{"id":41582,"sort":8,"collection":"options","item":{"id":"c2d36af7-ea8f-4402-8952-e2ee5898d696","title":"Required or optional","text":"Pickers can be marked as optional or required, depending on the situation. For required pickers, there are two styling options: a “(required)” label or an asterisk. If you use an asterisk, be sure to include hint text to explain what the asterisk means. Optional pickers are either denoted with text added to the end of the label — “(optional)” — or have no indication at all.\n\nThe asterisk used in this component is an icon that has specific spacing from the label text — not part of the label text itself.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"64ff811b-18a7-49f6-8941-98e9ebcad425","filename_download":"picker_options_required@2x.png","height":656,"description":"Key example of optional and required pickers. A picker in the closed state with the label Country (optional) and placeholder text Select a country, followed by ellipsis. A picker in the closed state with the label Country (required) and placeholder text Select a country, followed by ellipsis. A picker in the closed state with the label Country and an asterisk and placeholder text Select a country, followed by ellipsis.","modified_on":"2022-04-08T19:53:25.772Z","folder":null},"mobile_image":null}},{"id":41583,"sort":9,"collection":"options","item":{"id":"5cf52fb9-57ba-489f-8b43-86c6ec82ee28","title":"Menu container","text":"On mobile, the menu can be exposed in either a [popover](/page/popover) or a [tray](/page/tray). Use a tray when the number of options is too overwhelming for a popover.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":1376,"id":"8d82e498-c37e-4de2-9c4a-6d57697e33b6","filename_download":"picker_behaviors_tray@2x.png","height":1120,"description":"A key example of a picker in the open state displayed on a mobile device. The menu is displayed in a tray at the bottom of the device's screen.","modified_on":"2022-04-08T19:53:25.836Z","folder":null},"mobile_image":null}},{"id":41584,"sort":10,"collection":"options","item":{"id":"75c811ad-a416-426f-81d8-419a7b2b61ba","title":"Error","text":"A picker can be marked as having an error to show that a value needs to be entered in order to move forward or that a value that was entered is invalid.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"56e35ada-fcdb-4b18-9791-d361adba6ce8","filename_download":"picker_options_error@2x.png","height":320,"description":"Key example of a picker with an error.  A picker in the closed state with the label Page template and a selected value of Home, with a red border and an alert icon indicating an error.","modified_on":"2022-04-08T19:53:25.910Z","folder":null},"mobile_image":null}},{"id":41585,"sort":11,"collection":"options","item":{"id":"3e7a6687-ef45-4858-810f-096934e9c695","title":"Disabled","text":"A picker in a disabled state shows that an input field exists, but is not available in that circumstance. This can be used to maintain layout continuity and communicate that it may become available later.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"45555a27-acc3-42c3-8ab4-1f02300ce668","filename_download":"picker_options_disabled@2x.png","height":320,"description":"Key example of a disabled picker.  A picker in the closed, disabled state with the label Page template and a selected value of Home.","modified_on":"2022-04-08T19:53:25.985Z","folder":null},"mobile_image":null}},{"id":41586,"sort":12,"collection":"options","item":{"id":"169652c2-e056-42e4-95de-e7bbc172d7d5","title":"Read-only","text":"Pickers have a read-only option for when content in the disabled state still needs to be shown. This allows for content to be copied, but not interacted with or changed. A picker does not have a read-only option if no selection has been made.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"11fb5b52-40cf-49a2-8815-1689e3219fcb","filename_download":"picker_options_read-only@2x.png","height":320,"description":"Key example of read-only picker, unable to be interacted with. Label Country. Sample selected value, United States. The picker has no background or border and appears as plain-text.","modified_on":"2022-04-08T19:53:26.046Z","folder":null},"mobile_image":null}},{"id":41587,"sort":13,"collection":"options","item":{"id":"3e0cdf38-3a8b-40d2-93f8-06e4923df689","title":"Help text (description and error message)","text":"A picker can have [help text](/page/help-text) below the field to give extra context or instruction about what a user should select. The help text area has two options: a description and an error message. The description communicates a hint or helpful information, such as specific requirements for what to choose. The error message communicates an error for when the selection requirements aren’t met, prompting a user to adjust what they had originally selected.","image_style":null,"image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"7b1ab5d1-5b3f-494c-acf6-eed2662e943c","filename_download":"picker_options_help-text@2x.png","height":544,"description":"Key example of a picker using help text description and error message. Picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Select the best way to contact you in case there’s an issue with your account. Error message shown in red color, Select a contact method.","modified_on":"2022-04-08T19:53:26.122Z","folder":null},"mobile_image":null}},{"id":41588,"sort":14,"collection":"table_of_options_placeholder","item":{"id":"9df83ed5-d51e-47be-96d8-fb9e9b70f031","title":"For Position Only"}}]}},{"id":22103,"sort":2,"section":{"id":"afba5700-1468-4e4a-9e00-f00afbcd312f","title":"Behaviors","text":null,"visibility":"all","display_title":true,"content":[{"id":41589,"sort":1,"collection":"behaviors","item":{"id":"de312b7a-a3a7-46d5-b3f0-34093fd7b06b","image_style":"standard","title":"Minimum width","text":"The minimum width for a picker is 2× the height of the field button. This guarantees that small pickers are readable and easy to target on touch devices. Quiet pickers do not have a minimum width; their width depends on the length of the text.","background_color":null,"image_caption":null,"desktop_image":{"width":688,"id":"82f9d7a8-8796-468a-a30f-10274d77202b","filename_download":"picker_behaviors_minimum-width@2x.png","height":320,"description":"Key example of regular and quiet pickers illustrating the minimum width. A regular picker with the label State and the selected value of CA. A quiet picker with the label State and the selected value of CA.","modified_on":"2022-04-08T20:07:06.057Z","folder":null},"mobile_image":null}},{"id":41590,"sort":2,"collection":"behaviors","item":{"id":"948c3245-ec5a-4eb7-bed9-7aec458bea6b","image_style":"standard","title":"Text overflow","text":"When the field label and menu text are too long for the available horizontal space, they wrap to form another line. The field text itself truncates at the end, but the text can be shown in full in the menu.","background_color":null,"image_caption":null,"desktop_image":{"width":688,"id":"66b00a34-699b-4441-967d-d23e82edc0cd","filename_download":"picker_behaviors_text-overflow@2x.png","height":796,"description":"Key example of text overflow behavior in a dropdown. A label with the wrapping text Select the size you want this export to be. A dropdown with the truncated selected value of Large select this followed by ellipsis. A menu with the wrapping text Small works best for mobile phones.","modified_on":"2022-04-08T20:07:06.128Z","folder":null},"mobile_image":null}},{"id":41591,"sort":3,"collection":"behaviors","item":{"id":"8b7f3e47-2c16-48bd-9a61-f059c225f78f","image_style":"standard","title":"Help text overflow","text":"When the help text is too long for the available horizontal space, it wraps to form another line. ","background_color":null,"image_caption":null,"desktop_image":{"width":688,"id":"4036daab-e5ae-4c09-89dd-8bea03e8a174","filename_download":"picker_behaviors_help-text-overflow@2x.png","height":336,"description":"Key example of a picker’s help text in overflow, wrapping to two lines. Picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Select the best way to contact you in case there’s an issue with your account.","modified_on":"2022-04-08T20:07:06.198Z","folder":null},"mobile_image":null}},{"id":43058,"sort":4,"collection":"behaviors","item":{"id":"058f7b56-dddb-4367-a4b5-474877fe590e","image_style":"standard","title":"Menu height","text":"The picker menu can be as tall as necessary to show as many options as possible in the available space. There is no maximum height.","background_color":null,"image_caption":null,"desktop_image":{"width":688,"id":"23f1eb3e-4ad3-4484-a5e3-0a2bdd029d5c","filename_download":"picker_behaviors_menu-height@2x.png","height":1028,"description":"Key example of showing the menu height of a picker. Picker label, Country. Selected option, United States. 11 options, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, Uzbekistan.","modified_on":"2022-04-08T20:07:06.256Z","folder":null},"mobile_image":null}},{"id":41592,"sort":5,"collection":"behaviors","item":{"id":"8cd2b590-5391-4406-9fdd-4dcda32b4c64","image_style":"standard","title":"Windows high contrast mode","text":"In Windows high contrast mode, picker should be displayed using the high contrast theme-specified colors for buttons. By default, border color should be the same as the button text color and labels should use default text color. In hover and keyboard focus states, the border color should display as the button border color. In the disabled state, border and text color should display as the disabled color. Items in a picker menu should display with default text color. A selected item should have the background and text colors defined for selected text.\n\n[Picker (Windows high contrast mode) UI kit](/static/Windows-High-Contrast-Kits/Picker-WindowsHighContrast.xd)","background_color":"#000000","image_caption":null,"desktop_image":{"width":688,"id":"fc84d825-7bd3-46f7-b052-a1360a47735c","filename_download":"picker_WHCM.png","height":804,"description":"Key example of pickers in Windows “high contrast black” theme with label “Picker”, disabled picker with label “Disabled picker”, and selected picker with menu displaying options labeled “Option”, “Selected option” in selected state, and “Disabled option” in disabled state.","modified_on":"2021-12-03T22:57:03.703Z","folder":null},"mobile_image":null}}]}},{"id":22104,"sort":3,"section":{"id":"51904951-43b1-41a7-af50-e0a777d949b6","title":"Usage guidelines","text":null,"visibility":"all","display_title":true,"content":[{"id":41593,"sort":1,"collection":"usage_guideline","item":{"id":"8f001c94-a88a-47bd-945b-5716d9041bed","title":"Include a label","text":"Every picker should have a label. A picker without a label is ambiguous and not accessible.","description_do":null,"description_dont":null,"background_color_do":null,"background_color_dont":null,"image_do":{"width":688,"id":"a3c6a095-4032-4340-9e6f-b31bc9a2b353","filename_download":"picker_usage-guidelines_include-label_do@2x_4k8n12XNN6VQ6x445GdK4a.png","height":320,"description":"Key example showing the correct usage of a picker label. A picker with the label Country of birth and the selected value of United States.","modified_on":"2021-02-25T20:54:06.372Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}},"image_dont":{"width":688,"id":"85107bed-429c-4adb-8299-3c632237b86a","filename_download":"picker_usage-guidelines_include-label_dont@2x_4uO6ZbTUS3ZVCMRJ1NwjPl.png","height":320,"description":"Key example showing the correct usage of a picker without a label. A picker with no label and the selected value of United States.","modified_on":"2021-02-25T20:54:06.406Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}}}},{"id":41594,"sort":2,"collection":"usage_guideline","item":{"id":"57d675dc-dbe6-4754-88a0-22b9b65c9823","title":"Review label-less designs","text":"In rare cases where context is sufficient and a label could be absent, make sure to have the design reviewed and approved by an accessibility expert. These should still include an aria-label in HTML (depending on the context, “aria-label” or “aria-labelledby”).","description_do":null,"description_dont":null,"background_color_do":null,"background_color_dont":null,"image_do":{"width":688,"id":"ff4ba652-43c5-4f0a-b64e-8fdcde2f48bc","filename_download":"picker_usage-guidelines_review-label_do@2x_3ptVIqkxBqm3iZNtizSBwY.png","height":320,"description":"Key example showing the correct usage of a picker without a label. A quiet picker with the selected value of Sort by date.","modified_on":"2021-02-25T20:54:06.451Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}},"image_dont":null}},{"id":41595,"sort":3,"collection":"usage_guideline","item":{"id":"1634a5a0-0f47-475d-bc6b-30bf0065addb","title":"Keep menu items concise","text":"Keep menu items short and concise. Long menu items that cause text to wrap to multiple lines are discouraged. If text wrapping becomes a frequent concern, consider revising the text or use alternative UI patterns that will give your content more space.","description_do":null,"description_dont":null,"background_color_do":null,"background_color_dont":null,"image_do":{"width":688,"id":"55bccf74-5393-4a4f-b327-744476b936a7","filename_download":"picker_usage-guidelines_menu-item-concise_do.png","height":560,"description":"A key example showing correct picker menu item text length. A picker in the open state with the label size and placeholder text Select an option followed by ellipsis, a menu with the items Small, Medium, and Large.","modified_on":"2021-12-03T22:57:03.802Z","folder":null},"image_dont":{"width":688,"id":"f80a5f77-fae7-4149-883d-6a81369379a6","filename_download":"picker_usage-guidelines_menu-item-concise_dont.png","height":628,"description":"A key example showing incorrect picker menu item text length. A picker in the open state with the label size and placeholder text Select an option followed by ellipsis, a menu with the items Small (works best for mobile phones), Medium (all-purpose), and Large (select this one for printing).","modified_on":"2021-12-03T22:57:03.779Z","folder":null}}},{"id":41596,"sort":4,"collection":"usage_guideline","item":{"id":"9446c2c6-74cb-4ad7-8a21-82fae8faaf42","title":"Choose an appropriate width","text":"When possible, the field button width should be wide enough so that any chosen menu items can be displayed in full.\n","description_do":null,"description_dont":null,"background_color_do":null,"background_color_dont":null,"image_do":{"width":688,"id":"62eac2f1-615f-4a48-b58b-d9b18b790a55","filename_download":"picker_usage-guidelines_field-button-width_do@2x_1yeVBpKPXhjWTKjIjSgUF0.png","height":320,"description":"Key example showing the correct width of a picker. A picker with the label Country and the selected value of United States of America.","modified_on":"2021-02-25T20:54:06.543Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}},"image_dont":{"width":688,"id":"c5b15918-915f-43a8-916c-dcb57fb9fe8f","filename_download":"picker_usage-guidelines_field-button-width_dont@2x_7Ab0TvJmRdR5gmp3jxc9wE.png","height":320,"description":"Key example showing the a picker with incorrect width. A picker with the label Country and the selected value of United Sta followed by ellipsis to show the truncation of the words United States.","modified_on":"2021-02-25T20:54:06.555Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}}}},{"id":41597,"sort":5,"collection":"usage_guideline","item":{"id":"307336d7-0654-4ffd-97af-2dcd74f2e64c","title":"Follow capitalization rules","text":"Field labels, placeholder text, and menu items should be in sentence case.","description_do":null,"description_dont":null,"background_color_do":null,"background_color_dont":null,"image_do":{"width":688,"id":"16726e7e-b82c-4a71-866c-788b0acfe9ae","filename_download":"picker_usage-guidelines_cap_do@2x.png","height":320,"description":"A key example of a picker with correct sentence case capitalization. A picker with the label Country of birth and the placeholder text Select a country followed by ellipsis.","modified_on":"2021-02-25T20:54:06.588Z","folder":null},"image_dont":{"width":688,"id":"988e1c6d-10be-4180-9d25-d4e01f9010f6","filename_download":"picker_usage-guidelines_cap_dont@2x.png","height":320,"description":"A key example of a picker with incorrect title case capitalization. A picker with the label Country of Birth and the placeholder text Select a Country followed by ellipsis.","modified_on":"2021-02-25T20:54:06.600Z","folder":null}}},{"id":41598,"sort":6,"collection":"usage_guideline","item":{"id":"dc6ed50f-08dc-4e31-8a8a-ac4952125cdf","title":"Mark the minority of pickers in a form as required or optional","text":"In a single form, mark only the required fields or only the optional fields, depending on whichever is less frequent in the entire form. If most of the pickers are optional, only the required fields should be given an asterisk or have labels appended with “(required)”. If most of the pickers are required, only the optional fields should be appended with “(optional)”. An asterisk should never be used to note that a picker is optional. ","description_do":null,"description_dont":null,"background_color_do":null,"background_color_dont":null,"image_do":{"width":688,"id":"fe791da2-0624-4ea6-a285-aaf21f82a475","filename_download":"picker_usage-guidelines_optional_do@2x.png","height":448,"description":"A key example showing correct usage of required and optional pickers. A picker with the label View by and the placeholder text Select an option followed by ellipsis. A picker with the label View by and the placeholder text Select an option followed by ellipsis. A picker with the label Country (optional) and the placeholder text Select an option followed by ellipsis.","modified_on":"2021-02-25T20:54:06.632Z","folder":null},"image_dont":{"width":688,"id":"7ffc43d1-008d-438e-85d5-2a5ddd0ace4b","filename_download":"picker_usage-guidelines_optional_dont@2x.png","height":448,"description":"A key example showing incorrect usage of required and optional pickers. A picker with the label View by (required) and the placeholder text Select an option followed by ellipsis. A picker with the label View by (required) and the placeholder text Select an option followed by ellipsis. A picker with the label Country and the placeholder text Select an option followed by ellipsis.","modified_on":"2021-02-25T20:54:06.643Z","folder":null}}},{"id":41599,"sort":7,"collection":"usage_guideline","item":{"id":"f2209a79-ca30-4cc0-944f-e78ebf64e930","title":"Use help text to show context","text":"A picker’s description in the help text is can communicate __what__ to select or __how__ to select an option. This includes information such as:\n\n- An overall description of the picker options\n- Hints for what kind of information to choose\n- More context for why a user needs to make a selection\n\nThe help text’s message should not simply restate the same information in the label in order to prompt someone to interact with a picker. Don’t add help text if it isn’t actually relevant or meaningful to a user in order to try to maintain layout continuity with other inputs that require help text. ","description_do":null,"description_dont":null,"background_color_do":null,"background_color_dont":null,"image_do":{"width":688,"id":"c4660908-f6a8-45e5-b26c-50c820f984b3","filename_download":"picker_usage-guidelines_help-text-context_do@2x_2KfuUT007ckWX3d3beeHhW.png","height":336,"description":"Key example of correct usage of help text with a picker. Picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Select the best way to contact you in case there’s an issue with your account.","modified_on":"2021-02-25T20:54:06.675Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}},"image_dont":{"width":688,"id":"00bd2ae4-db21-48a5-aa52-7c0261808edb","filename_download":"picker_usage-guidelines_help-text-context_dont@2x_ESYsKUnBONfBWtIR9WZLz.png","height":320,"description":"Key example of incorrect usage of help text with a picker. Picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Choose your preferred contact method.","modified_on":"2021-02-25T20:54:06.687Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}}}},{"id":41600,"sort":8,"collection":"usage_guideline","item":{"id":"812f8ade-e500-465d-86ff-9d01f5b6b149","title":"Switch help text with error text","text":"The help text area also displays an error message. When a picker already includes help text and an error is triggered, the help text is replaced with error text. Once the error is resolved, the help text description reappears below the picker. \n\nSince one gets replaced by the other, the language of the help text and error text need to work together to convey the same messaging. Help text explains the requirement or adds supplementary context for how to complete the interaction. Error text tells a user how to fix the error by re-stating the selection requirements or describing the necessary interaction. Make sure that the help text and the error text include the same essential information so that it isn’t lost if one replaces the other (e.g., minimum requirements).\n","description_do":null,"description_dont":null,"background_color_do":null,"background_color_dont":null,"image_do":{"width":688,"id":"ca2b922c-3e73-4595-a81f-fe409ab1e42b","filename_download":"picker_usage-guidelines_error-text-replace_do@2x_1KQdA0RDoGIcXnosSVGzHr.png","height":544,"description":"Key example of correct usage of switching help text with error text in a picker. Required picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Select the best way to contact you in case there’s an issue with your account. Error message shown in red color, Select a contact method.","modified_on":"2021-02-25T20:54:06.716Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}},"image_dont":{"width":688,"id":"70d60acb-fc0a-44f7-9523-cc9a2179b489","filename_download":"picker_usage-guidelines_error-text-replace_dont@2x_5UM8rZOo8bedHMYxl4F0EA.png","height":544,"description":"Key example of incorrect usage of switching help text with error text in a picker. Required picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Select a contact method. Error text shown in red color, Select a contact method.","modified_on":"2021-02-25T20:54:06.726Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}}}},{"id":41601,"sort":9,"collection":"usage_guideline","item":{"id":"12aaa22f-ea0e-48c0-bda7-62920550397d","title":"Write error text that shows a solution","text":"Write error messaging in a human-centered way by guiding a user and showing them a solution — don’t simply state what’s wrong and then leave them guessing as to how to resolve it. Ambiguous error messages can be frustrating and even shame-inducing for users. Also, keep in mind that something that a system may deem an error may not actually be perceived as an error to a user.\n\nError text should be written in 1-2 short, complete sentences and in a clear and straightforward way. End sentences with a period, and never with an exclamation point. For pickers, the nature of the error is often related to something that needs to be fixed for in-line validation, so a [helpful tone](/page/voice-and-tone/#Tone-spectrum) is most appropriate. For example, if someone were to miss selecting an option to note as their preferred contact method, write the error text like you’re offering a hint or a tip to help guide them to understand what needs to be selected: “Select a contact method.”\n","description_do":null,"description_dont":null,"background_color_do":null,"background_color_dont":null,"image_do":{"width":688,"id":"8fb220c3-2f44-4ba4-a62e-3bb82dab7306","filename_download":"picker_usage-guidelines_error-text-solution_do@2x_6xjv0u9V0FB3wPc9kOILc9.png","height":320,"description":"Key example of correct way of writing an error message. Required picker, label Preferred contact method. Placeholder text prompt, Select contact method… Error text shown in red color, Select a contact method.","modified_on":"2021-02-25T20:54:06.756Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}},"image_dont":{"width":688,"id":"a3bf9ee8-d3f4-4980-9f67-aa0e61553fa8","filename_download":"picker_usage-guidelines_error-text-solution_dont@2x_20up2EK7pQzDMxPyeAceLy.png","height":320,"description":"Key example of correct way of writing an error message. Required picker, label Preferred contact method. Placeholder text prompt, Select contact method… Error text shown in red color, Invalid field.","modified_on":"2021-02-25T20:54:06.766Z","folder":{"id":"6b2e686c-0b66-4b5c-965a-317fbd9e272b","name":"images"}}}}]}},{"id":22105,"sort":4,"section":{"id":"ba157f89-0d02-4eb6-8738-6f9b687eda43","title":"Internationalization","text":null,"visibility":"all","display_title":true,"content":[{"id":41602,"sort":0,"collection":"internationalization","item":{"id":"01f00779-468b-43b1-8ae7-01db2d048ad1","title":"RTL","text":"For RTL (right-to-left) languages, the layout of the picker is mirrored. Text and the checkmark are right-aligned while the chevron is left-aligned.","image_style":"standard","image_caption":null,"background_color":null,"desktop_image":{"width":688,"id":"4a4fd27e-c1be-4ea7-bee5-3a8467ed6878","filename_download":"picker_internationalization_RTL@2x.png","height":480,"description":"Key example of picker internationalization for right-to-left languages. Layout of picker is mirrored, label and menu items are in Arabic.","modified_on":"2022-04-08T20:07:06.376Z","folder":null},"mobile_image":null}}]}},{"id":22106,"sort":5,"section":{"id":"251a028b-85e3-4112-a9d0-5e89313e3c83","title":"Keyboard interactions","text":"","visibility":"all","display_title":true,"content":[{"id":42711,"sort":1,"collection":"keyboard_interactions","item":{"id":"81eb2fbf-530e-4b45-a231-036e18afc134","list":[{"key":"Space or Down Arrow","interaction":"Opens the popover menu. The focus is set on the menu item selected."}],"text":"When the popover menu is closed:"}},{"id":42712,"sort":2,"collection":"keyboard_interactions","item":{"id":"26ac5ba3-f5a5-4123-9b2e-6d4840faf01f","list":[{"key":"Space","interaction":"Selects the menu item in focus, closes the popover menu and moves focus to the field button."},{"key":"Up or Down Arrow","interaction":"Moves focus to previous or next menu item in the popover. Does not loop when the last or first menu item is reached."},{"key":"Esc","interaction":"Closes the popover menu and moves focus to the field button."}],"text":"When the popover menu is open:"}}]}},{"id":22107,"sort":6,"section":{"id":"de7f8666-b9bf-437c-ba5a-eb6f788a4867","title":"Changelog","text":null,"visibility":"all","display_title":true,"content":[{"id":41603,"sort":0,"collection":"changelog_placeholder","item":{"id":"42ed9b90-ca22-4d0c-91ed-4a7473385eed","title":"For Position Only"}}]}},{"id":22108,"sort":7,"section":{"id":"cb3f1a13-bd6f-4aae-917e-7818658e7965","title":"Design checklist","text":null,"visibility":"all","display_title":true,"content":[{"id":41604,"sort":0,"collection":"design_checklist_placeholder","item":{"id":"24cb0b14-b317-40ac-a30e-73d3ee0c512d","title":"For Position Only"}}]}}],"options":[{"values":"text / nothing","sort":0,"description":null,"property":"label","id":"5a2e7357-a257-46b5-813f-c0d320312d2c","default":"–"},{"values":"top /side","sort":1,"description":"","property":"label position","id":"2a14867c-73f2-47cb-866d-8b8c2e2b4278","default":"top"},{"values":"text","sort":2,"description":"","property":"placeholder","id":"896d3b50-b923-4eba-babb-b5a68f69777b","default":"–"},{"values":"text / nothing","sort":3,"description":"","property":"value","id":"7038561b-b761-4e5a-bd13-2881e7866fcb","default":"–"},{"values":"number","sort":4,"description":"Not applicable to quiet picker.","property":"width","id":"bf50e59c-3580-4b6d-a967-ba61abf0c98e","default":"–"},{"values":"small / medium / large / extra-large","sort":5,"description":null,"property":"size","id":"496c2e5e-46e8-4196-9b70-3578cab9fdd9","default":"medium"},{"values":"yes / no","sort":6,"description":"","property":"is quiet","id":"a2a3c4aa-fa38-471c-a68a-d09dae29fdb4","default":"no"},{"values":"text / icon/ nothing","sort":7,"description":"","property":"necessity indicator","id":"dc80402e-df9c-43db-ba3a-d1c8d0d48020","default":"icon"},{"values":"yes / no","sort":8,"description":"","property":"is required","id":"eec62568-acab-4cdf-a0db-b7ea97c3ba82","default":"no"},{"values":"popover / tray","sort":9,"description":"The option to display the menu in a tray is available on mobile devices only.","property":"menu container","id":"65065a24-13f1-4c80-b22a-a80563b0cf5b","default":"popover"},{"values":"yes / no","sort":10,"description":"","property":"is error","id":"5e407140-a4ec-440f-be8f-cefbe35ecfb7","default":"no"},{"values":"yes / no","sort":11,"description":"","property":"is disabled","id":"f6cf6f94-a336-4512-b60d-324e0722e2e4","default":"no"},{"values":"yes / no","sort":12,"description":"","property":"is read-only","id":"8a58de06-0a66-4bb7-8666-92d380c766be","default":"no"},{"values":"text / nothing","sort":13,"description":null,"property":"description","id":"edf78ea7-cda4-419f-a74b-600a59505529","default":"nothing"},{"values":"text / nothing","sort":14,"description":"","property":"error message","id":"8ee0cc13-c477-437f-a503-896f9452948d","default":"nothing"}]}
+{
+  "id": "0859f1b5-45a4-4b3a-96f5-cec894071927",
+  "title": "Picker",
+  "slug": "picker",
+  "site": "internal and public",
+  "release_status": "released",
+  "search_category": "components",
+  "search_tags": [
+    "select",
+    "dropdown",
+    "selection",
+    "picker",
+    "list",
+    "options"
+  ],
+  "show_issues": false,
+  "description": "Pickers (sometimes known as \"dropdowns\" or \"selects\") allow users to choose from a list of options in a limited space. The list of options can change based on the context.",
+  "hero_image_style": "standard",
+  "table_of_contents": true,
+  "component": true,
+  "all_interactive_states": "yes",
+  "all_color_themes": "yes",
+  "all_platform_scales": "yes",
+  "defined_behaviors": "yes",
+  "usage_guidelines": "yes",
+  "internationalization_guidelines": "yes",
+  "keyboard_interactions": "yes",
+  "design_tokens": "yes",
+  "generated_ui_kit": "yes",
+  "isdeprecated": false,
+  "defined_options": "yes",
+  "accessible_contrast_text": "yes",
+  "accessible_contrast_ui_components": "no",
+  "accessible_use_color": "yes",
+  "ui_kit": "yes",
+  "writing_guidelines": "yes",
+  "content_design": "yes",
+  "xd_plugin": "yes",
+  "spectrum_design": "yes",
+  "spectrum_dna": "https://git.corp.adobe.com/pages/Spectrum/dss-docs/spectrum-components/components/picker.html",
+  "spectrum_css": "https://opensource.adobe.com/spectrum-css/picker.html",
+  "react_spectrum_v2": "https://react-spectrum.corp.adobe.com/storybook/?path=/story/select--default",
+  "react_spectrum_v3": "https://react-spectrum.adobe.com/react-spectrum/Picker.html",
+  "spectrum_web_components": "https://opensource.adobe.com/spectrum-web-components/components/picker",
+  "spectrum_windows": "https://git.corp.adobe.com/spectrum-components/spectrum-uwp/wiki/API-Reference#spectrum-dropdown",
+  "spectrum_macos": "no",
+  "spectrum_ios": "https://git.corp.adobe.com/spectrum-components/spectrum-apple/wiki/Spectrum-Dropdown",
+  "spectrum_android": "https://git.corp.adobe.com/spectrum-components/spectrum-android/wiki/API-Reference#spectrum-dropdown",
+  "drover_v7": "https://wiki.corp.adobe.com/display/drover/Drover+Spectrum",
+  "spectrum_uxp": "https://git.corp.adobe.com/pages/uxp/docs/spectrum_uxp/spectrum_uxp_user_interface/#sp-dropdown",
+  "hero_image_desktop": {
+    "width": 1952,
+    "id": "2c5220a5-1c1d-4d69-867e-c370f9653542",
+    "filename_download": "picker_hero@2x.png",
+    "height": 720,
+    "description": "Image illustrating pickers in open and closed states. Picker in closed state, label Transition selected value None. Picker in open state, label Easing, selected value Ease out, other menu options Ease in, Ease out, Ease in-out, None.",
+    "modified_on": "2022-04-08T19:53:25.229Z",
+    "folder": null
+  },
+  "hero_image_mobile": null,
+  "versions": [
+    {
+      "date": "2021-12-03",
+      "id": "0b6adec2-7023-41dd-8ab3-cd0d42778395",
+      "notes": "- Moved placement of checkmark to left side of menu items",
+      "version": "6.0.2",
+      "pending": true,
+      "file": null,
+      "express": null
+    },
+    {
+      "date": "2022-04-06",
+      "id": "1a33c14b-1b12-4b3f-bdfd-68ed89bb44b4",
+      "notes": "- Updated all colors to 6.0.0",
+      "version": "8.0.0",
+      "pending": false,
+      "file": {
+        "width": null,
+        "id": "14312e79-5144-4499-899c-0d7a721e9dce",
+        "filename_download": "Picker-spectrum-v8.1.2.xd",
+        "height": null,
+        "description": null,
+        "modified_on": "2022-04-27T17:37:18.683Z",
+        "folder": null
+      },
+      "express": null
+    },
+    {
+      "date": "2022-02-07",
+      "id": "66751480-4eac-4ff3-bd35-b77c0c8fd826",
+      "notes": "- Updated read-only option design",
+      "version": "7.0.0",
+      "pending": false,
+      "file": {
+        "width": null,
+        "id": "a090a11b-4dcc-484c-8489-631f4db479b0",
+        "filename_download": "Picker-v7.0.0.xd",
+        "height": null,
+        "description": null,
+        "modified_on": "2022-02-15T20:19:04.312Z",
+        "folder": null
+      },
+      "express": null
+    },
+    {
+      "date": "2019-04-19",
+      "id": "84f27d9b-c871-4c15-a8cb-79639a5d2649",
+      "notes": "- This component is now individually versioned (individual versions of existing components start at 5.0.0)\n- Added RTL (right-to-left) guidelines",
+      "version": "5.0.0",
+      "pending": false,
+      "file": {
+        "width": null,
+        "id": "19394135-c4f3-496c-ba2b-4e49518e0fec",
+        "filename_download": "Picker-v5.0.0.xd",
+        "height": null,
+        "description": "Picker-v5.0.0.xd",
+        "modified_on": "2021-01-25T23:52:27.005Z",
+        "folder": {
+          "id": "e52fef68-47d8-4562-9259-4c45a16a0f86",
+          "name": "xd-files"
+        }
+      },
+      "express": null
+    },
+    {
+      "date": "2018-08-22",
+      "id": "9320df88-ab13-4727-9d16-907002072f84",
+      "notes": "- Added text overflow behavior",
+      "version": "5.1.0",
+      "pending": false,
+      "file": {
+        "width": null,
+        "id": "812ae7c0-1221-4026-b479-09e4b78ed74d",
+        "filename_download": "Picker-v5.1.0.xd",
+        "height": null,
+        "description": "Picker-v5.1.0.xd",
+        "modified_on": "2021-01-25T23:52:23.241Z",
+        "folder": {
+          "id": "e52fef68-47d8-4562-9259-4c45a16a0f86",
+          "name": "xd-files"
+        }
+      },
+      "express": null
+    },
+    {
+      "date": "2020-04-23",
+      "id": "a582556d-1f90-43dd-8dcd-9f68d064c761",
+      "notes": "- \"Dropdown\" has been renamed to \"picker\"",
+      "version": "6.0.0",
+      "pending": false,
+      "file": {
+        "width": null,
+        "id": "735e1a82-1082-4064-9514-11bc8083502e",
+        "filename_download": "Picker-v6.0.0.xd",
+        "height": null,
+        "description": "Picker-v6.0.0.xd",
+        "modified_on": "2021-01-25T23:52:32.330Z",
+        "folder": {
+          "id": "e52fef68-47d8-4562-9259-4c45a16a0f86",
+          "name": "xd-files"
+        }
+      },
+      "express": null
+    },
+    {
+      "date": "2018-08-13",
+      "id": "c0ea551a-ff82-4977-93e9-9b5cb1a38c99",
+      "notes": "- Changed selected item text color from blue 500 to gray 800",
+      "version": "5.0.1",
+      "pending": false,
+      "file": {
+        "width": null,
+        "id": "197afe53-3ffe-44d6-bb22-86d25f53c8a9",
+        "filename_download": "Picker-v5.0.1.xd",
+        "height": null,
+        "description": "Picker-v5.0.1.xd",
+        "modified_on": "2021-01-25T23:52:25.029Z",
+        "folder": {
+          "id": "e52fef68-47d8-4562-9259-4c45a16a0f86",
+          "name": "xd-files"
+        }
+      },
+      "express": null
+    },
+    {
+      "date": "2021-02-26",
+      "id": "c9bb72c2-a835-458a-9e84-d120d19708a7",
+      "notes": "- Updated placeholder text color for higher contrast",
+      "version": "6.0.1",
+      "pending": false,
+      "file": {
+        "width": null,
+        "id": "5662ae2c-b593-4b21-a3c1-733e8c8767c7",
+        "filename_download": "Picker-v6.0.1.xd",
+        "height": null,
+        "description": null,
+        "modified_on": "2021-02-26T18:09:16.194Z",
+        "folder": null
+      },
+      "express": null
+    },
+    {
+      "date": "2019-02-26",
+      "id": "d569d35d-e705-454c-a48b-dd3580d8cee4",
+      "notes": "- Added read-only option\n- Updated border color to be more accessible",
+      "version": "5.2.0",
+      "pending": false,
+      "file": {
+        "width": null,
+        "id": "95b78351-f9ad-45ee-a3bc-f92f8a03d705",
+        "filename_download": "Picker-v5.2.0.xd",
+        "height": null,
+        "description": "Picker-v5.2.0.xd",
+        "modified_on": "2021-01-25T23:52:29.595Z",
+        "folder": {
+          "id": "e52fef68-47d8-4562-9259-4c45a16a0f86",
+          "name": "xd-files"
+        }
+      },
+      "express": null
+    },
+    {
+      "date": "2022-02-24",
+      "id": "fa7d58ae-d83c-4192-9a3e-744bc3ee7091",
+      "notes": "- Added size option",
+      "version": "7.1.0",
+      "pending": false,
+      "file": {
+        "width": null,
+        "id": "9862021a-a542-461f-a5b4-5b0c8e09eaae",
+        "filename_download": "Picker-v7.1.0.xd",
+        "height": null,
+        "description": null,
+        "modified_on": "2022-02-24T22:03:36.905Z",
+        "folder": null
+      },
+      "express": null
+    }
+  ],
+  "header_components": [],
+  "sections": [
+    {
+      "id": 22101,
+      "sort": 0,
+      "section": {
+        "id": "0a7e2db8-1b1e-4962-8e25-4e7f4b8ea05e",
+        "title": "Anatomy",
+        "text": null,
+        "visibility": "all",
+        "display_title": true,
+        "content": [
+          {
+            "id": 41575,
+            "sort": 0,
+            "collection": "visual",
+            "item": {
+              "id": "3f710423-f774-4143-b2e6-03277479eca8",
+              "title": "Picker anatomy",
+              "show_title_on_website": false,
+              "image_style": "anatomy",
+              "background_color": null,
+              "caption": null,
+              "desktop_image": {
+                "width": 1952,
+                "id": "ef668220-d1d7-4397-a02f-a625f5e643d5",
+                "filename_download": "picker_anatomy_desktop.png",
+                "height": 768,
+                "description": "Image illustrating through labels the component parts of a picker in its open and closed states, including its label, required asterisk, field button, chevron, menu, menu options, and help text with description or error message.",
+                "modified_on": "2021-12-03T22:57:03.467Z",
+                "folder": null
+              },
+              "mobile_image": {
+                "width": 1952,
+                "id": "8886f1d9-6234-40a1-b2d4-537c393d6f99",
+                "filename_download": "picker_anatomy_mobile.png",
+                "height": 1040,
+                "description": "Image illustrating through labels the component parts of a picker in its open and closed states, including its label, required asterisk, field button, chevron, menu, menu options, and help text with description or error message.",
+                "modified_on": "2021-12-03T22:57:03.455Z",
+                "folder": null
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 22102,
+      "sort": 1,
+      "section": {
+        "id": "6c4d79a4-9629-4db2-a74b-b54bf1aaed57",
+        "title": "Options",
+        "text": null,
+        "visibility": "all",
+        "display_title": true,
+        "content": [
+          {
+            "id": 41576,
+            "sort": 1,
+            "collection": "options",
+            "item": {
+              "id": "d3e5588b-ef7d-4287-8a83-94f1bf5bd5a9",
+              "title": "Label",
+              "text": "Pickers should always have a label. In rare cases where context is sufficient and an accessibility expert has reviewed the design, the label could be undefined. These pickers without a visible label should still include an aria-label in HTML (depending on the context, “aria-label” or “aria-labelledby”).",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "54af98b0-8bab-450c-a212-37fda0819013",
+                "filename_download": "picker_options_label@2x.png",
+                "height": 320,
+                "description": "Key example of a picker with a label. A picker in the closed state with the label Country and placeholder text Select a country, followed by ellipsis.",
+                "modified_on": "2022-04-08T19:53:25.299Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41577,
+            "sort": 2,
+            "collection": "options",
+            "item": {
+              "id": "a6f4f3c4-5a6f-41b1-a336-1654f5dfbba5",
+              "title": "Label position",
+              "text": "Labels can be placed  either on top or on the side. Top labels are the default and are recommended because they work better with long copy, localization, and responsive layouts. Side labels are most useful when vertical space is limited.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "46a6b5a9-78b5-4d72-b8bb-a7333991fddb",
+                "filename_download": "picker_options_label-position@2x.png",
+                "height": 432,
+                "description": "Key example of 2 pickers with different label positions. A picker in the closed state with the label Country placed above it. A picker in the closed state with the label Country placed on the left side of the picker.",
+                "modified_on": "2022-04-08T19:53:25.362Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41578,
+            "sort": 3,
+            "collection": "options",
+            "item": {
+              "id": "902b67b6-1db9-458a-a267-dd6d8fa87bef",
+              "title": "Placeholder",
+              "text": "The placeholder text, also commonly known as “ghost text,” prompts a user to select an option from the picker menu. It disappears once a user selects an option.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "3caf903b-ba29-4080-9e1e-9916c0f3ef31",
+                "filename_download": "picker_options_placeholder@2x.png",
+                "height": 320,
+                "description": "Key example of a picker with a placeholder. A picker in the closed state with the label Country and placeholder text Select a country, followed by ellipsis.",
+                "modified_on": "2022-04-08T19:53:25.417Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41579,
+            "sort": 4,
+            "collection": "options",
+            "item": {
+              "id": "23239ccc-c2a7-432d-a493-ccf105b4f978",
+              "title": "Value",
+              "text": "The value shows the option that a user has selected.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "129a2624-2924-4cd6-8463-15e5169c72bd",
+                "filename_download": "picker_options_value@2x.png",
+                "height": 320,
+                "description": "Key example of a picker with a selected value. A picker in the closed state with the label Country and a selected value of United States.",
+                "modified_on": "2022-04-08T19:53:25.489Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41580,
+            "sort": 5,
+            "collection": "options",
+            "item": {
+              "id": "976e1a10-2451-4295-8deb-aadc52d3cdb4",
+              "title": "Width",
+              "text": "The width of a picker can be customized appropriately for its context. This option is not applicable to quiet pickers.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "2efc4cd6-1007-476b-969e-8cca27d7ea1a",
+                "filename_download": "picker_options_width@2x.png",
+                "height": 464,
+                "description": "Key example of a picker with customized width, showing two pickers of different widths.",
+                "modified_on": "2022-04-08T19:53:25.549Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 44901,
+            "sort": 6,
+            "collection": "options",
+            "item": {
+              "id": "24bfb657-5f0c-4760-bfb1-4d947cad46ac",
+              "title": "Size",
+              "text": "Pickers come in four different sizes: small, medium, large, and extra-large. The medium size is the default and most frequently used option. Use the other sizes sparingly; they should be used to create a hierarchy of importance within the page.",
+              "image_style": "standard",
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "b7ebdd5b-7cfe-4932-b2c1-6a1773ba2f9c",
+                "filename_download": "picker_options_size@2x.png",
+                "height": 816,
+                "description": "Key example of four pickers with top labels showing the size options available including small, medium, large, and extra-large. UI text is: label, Country. Selected option, Select a country.",
+                "modified_on": "2022-04-08T19:53:25.637Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41581,
+            "sort": 7,
+            "collection": "options",
+            "item": {
+              "id": "58711156-980e-4a5a-8b65-d3f4e02d55a4",
+              "title": "Quiet",
+              "text": "By default, pickers have a visible background. This style works best in a dense array of controls where the background helps to separate the input from the surrounding container, or to give visibility to isolated buttons.\n\nAlternatively, quiet pickers can have no visible background. This style works best when a clear layout (vertical stack, table, grid) makes it easy to parse the buttons. Too many quiet components in a small space can be hard to read.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "368cf68c-89bf-4a66-9f20-ea162276648b",
+                "filename_download": "picker_options_quiet@2x.png",
+                "height": 448,
+                "description": "Key example comparing a non-quiet and a quiet picker.",
+                "modified_on": "2022-04-08T19:53:25.698Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41582,
+            "sort": 8,
+            "collection": "options",
+            "item": {
+              "id": "c2d36af7-ea8f-4402-8952-e2ee5898d696",
+              "title": "Required or optional",
+              "text": "Pickers can be marked as optional or required, depending on the situation. For required pickers, there are two styling options: a “(required)” label or an asterisk. If you use an asterisk, be sure to include hint text to explain what the asterisk means. Optional pickers are either denoted with text added to the end of the label — “(optional)” — or have no indication at all.\n\nThe asterisk used in this component is an icon that has specific spacing from the label text — not part of the label text itself.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "64ff811b-18a7-49f6-8941-98e9ebcad425",
+                "filename_download": "picker_options_required@2x.png",
+                "height": 656,
+                "description": "Key example of optional and required pickers. A picker in the closed state with the label Country (optional) and placeholder text Select a country, followed by ellipsis. A picker in the closed state with the label Country (required) and placeholder text Select a country, followed by ellipsis. A picker in the closed state with the label Country and an asterisk and placeholder text Select a country, followed by ellipsis.",
+                "modified_on": "2022-04-08T19:53:25.772Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41583,
+            "sort": 9,
+            "collection": "options",
+            "item": {
+              "id": "5cf52fb9-57ba-489f-8b43-86c6ec82ee28",
+              "title": "Menu container",
+              "text": "On mobile, the menu can be exposed in either a [popover](/page/popover) or a [tray](/page/tray). Use a tray when the number of options is too overwhelming for a popover.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 1376,
+                "id": "8d82e498-c37e-4de2-9c4a-6d57697e33b6",
+                "filename_download": "picker_behaviors_tray@2x.png",
+                "height": 1120,
+                "description": "A key example of a picker in the open state displayed on a mobile device. The menu is displayed in a tray at the bottom of the device's screen.",
+                "modified_on": "2022-04-08T19:53:25.836Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41584,
+            "sort": 10,
+            "collection": "options",
+            "item": {
+              "id": "75c811ad-a416-426f-81d8-419a7b2b61ba",
+              "title": "Error",
+              "text": "A picker can be marked as having an error to show that a value needs to be entered in order to move forward or that a value that was entered is invalid.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "56e35ada-fcdb-4b18-9791-d361adba6ce8",
+                "filename_download": "picker_options_error@2x.png",
+                "height": 320,
+                "description": "Key example of a picker with an error.  A picker in the closed state with the label Page template and a selected value of Home, with a red border and an alert icon indicating an error.",
+                "modified_on": "2022-04-08T19:53:25.910Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41585,
+            "sort": 11,
+            "collection": "options",
+            "item": {
+              "id": "3e7a6687-ef45-4858-810f-096934e9c695",
+              "title": "Disabled",
+              "text": "A picker in a disabled state shows that an input field exists, but is not available in that circumstance. This can be used to maintain layout continuity and communicate that it may become available later.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "45555a27-acc3-42c3-8ab4-1f02300ce668",
+                "filename_download": "picker_options_disabled@2x.png",
+                "height": 320,
+                "description": "Key example of a disabled picker.  A picker in the closed, disabled state with the label Page template and a selected value of Home.",
+                "modified_on": "2022-04-08T19:53:25.985Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41586,
+            "sort": 12,
+            "collection": "options",
+            "item": {
+              "id": "169652c2-e056-42e4-95de-e7bbc172d7d5",
+              "title": "Read-only",
+              "text": "Pickers have a read-only option for when content in the disabled state still needs to be shown. This allows for content to be copied, but not interacted with or changed. A picker does not have a read-only option if no selection has been made.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "11fb5b52-40cf-49a2-8815-1689e3219fcb",
+                "filename_download": "picker_options_read-only@2x.png",
+                "height": 320,
+                "description": "Key example of read-only picker, unable to be interacted with. Label Country. Sample selected value, United States. The picker has no background or border and appears as plain-text.",
+                "modified_on": "2022-04-08T19:53:26.046Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41587,
+            "sort": 13,
+            "collection": "options",
+            "item": {
+              "id": "3e0cdf38-3a8b-40d2-93f8-06e4923df689",
+              "title": "Help text (description and error message)",
+              "text": "A picker can have [help text](/page/help-text) below the field to give extra context or instruction about what a user should select. The help text area has two options: a description and an error message. The description communicates a hint or helpful information, such as specific requirements for what to choose. The error message communicates an error for when the selection requirements aren’t met, prompting a user to adjust what they had originally selected.",
+              "image_style": null,
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "7b1ab5d1-5b3f-494c-acf6-eed2662e943c",
+                "filename_download": "picker_options_help-text@2x.png",
+                "height": 544,
+                "description": "Key example of a picker using help text description and error message. Picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Select the best way to contact you in case there’s an issue with your account. Error message shown in red color, Select a contact method.",
+                "modified_on": "2022-04-08T19:53:26.122Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41588,
+            "sort": 14,
+            "collection": "table_of_options_placeholder",
+            "item": {
+              "id": "9df83ed5-d51e-47be-96d8-fb9e9b70f031",
+              "title": "For Position Only"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 22103,
+      "sort": 2,
+      "section": {
+        "id": "afba5700-1468-4e4a-9e00-f00afbcd312f",
+        "title": "Behaviors",
+        "text": null,
+        "visibility": "all",
+        "display_title": true,
+        "content": [
+          {
+            "id": 41589,
+            "sort": 1,
+            "collection": "behaviors",
+            "item": {
+              "id": "de312b7a-a3a7-46d5-b3f0-34093fd7b06b",
+              "image_style": "standard",
+              "title": "Minimum width",
+              "text": "The minimum width for a picker is 2× the height of the field button. This guarantees that small pickers are readable and easy to target on touch devices. Quiet pickers do not have a minimum width; their width depends on the length of the text.",
+              "background_color": null,
+              "image_caption": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "82f9d7a8-8796-468a-a30f-10274d77202b",
+                "filename_download": "picker_behaviors_minimum-width@2x.png",
+                "height": 320,
+                "description": "Key example of regular and quiet pickers illustrating the minimum width. A regular picker with the label State and the selected value of CA. A quiet picker with the label State and the selected value of CA.",
+                "modified_on": "2022-04-08T20:07:06.057Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41590,
+            "sort": 2,
+            "collection": "behaviors",
+            "item": {
+              "id": "948c3245-ec5a-4eb7-bed9-7aec458bea6b",
+              "image_style": "standard",
+              "title": "Text overflow",
+              "text": "When the field label and menu text are too long for the available horizontal space, they wrap to form another line. The field text itself truncates at the end, but the text can be shown in full in the menu.",
+              "background_color": null,
+              "image_caption": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "66b00a34-699b-4441-967d-d23e82edc0cd",
+                "filename_download": "picker_behaviors_text-overflow@2x.png",
+                "height": 796,
+                "description": "Key example of text overflow behavior in a dropdown. A label with the wrapping text Select the size you want this export to be. A dropdown with the truncated selected value of Large select this followed by ellipsis. A menu with the wrapping text Small works best for mobile phones.",
+                "modified_on": "2022-04-08T20:07:06.128Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41591,
+            "sort": 3,
+            "collection": "behaviors",
+            "item": {
+              "id": "8b7f3e47-2c16-48bd-9a61-f059c225f78f",
+              "image_style": "standard",
+              "title": "Help text overflow",
+              "text": "When the help text is too long for the available horizontal space, it wraps to form another line. ",
+              "background_color": null,
+              "image_caption": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "4036daab-e5ae-4c09-89dd-8bea03e8a174",
+                "filename_download": "picker_behaviors_help-text-overflow@2x.png",
+                "height": 336,
+                "description": "Key example of a picker’s help text in overflow, wrapping to two lines. Picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Select the best way to contact you in case there’s an issue with your account.",
+                "modified_on": "2022-04-08T20:07:06.198Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 43058,
+            "sort": 4,
+            "collection": "behaviors",
+            "item": {
+              "id": "058f7b56-dddb-4367-a4b5-474877fe590e",
+              "image_style": "standard",
+              "title": "Menu height",
+              "text": "The picker menu can be as tall as necessary to show as many options as possible in the available space. There is no maximum height.",
+              "background_color": null,
+              "image_caption": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "23f1eb3e-4ad3-4484-a5e3-0a2bdd029d5c",
+                "filename_download": "picker_behaviors_menu-height@2x.png",
+                "height": 1028,
+                "description": "Key example of showing the menu height of a picker. Picker label, Country. Selected option, United States. 11 options, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, Uzbekistan.",
+                "modified_on": "2022-04-08T20:07:06.256Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          },
+          {
+            "id": 41592,
+            "sort": 5,
+            "collection": "behaviors",
+            "item": {
+              "id": "8cd2b590-5391-4406-9fdd-4dcda32b4c64",
+              "image_style": "standard",
+              "title": "Windows high contrast mode",
+              "text": "In Windows high contrast mode, picker should be displayed using the high contrast theme-specified colors for buttons. By default, border color should be the same as the button text color and labels should use default text color. In hover and keyboard focus states, the border color should display as the button border color. In the disabled state, border and text color should display as the disabled color. Items in a picker menu should display with default text color. A selected item should have the background and text colors defined for selected text.\n\n[Picker (Windows high contrast mode) UI kit](/static/Windows-High-Contrast-Kits/Picker-WindowsHighContrast.xd)",
+              "background_color": "#000000",
+              "image_caption": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "fc84d825-7bd3-46f7-b052-a1360a47735c",
+                "filename_download": "picker_WHCM.png",
+                "height": 804,
+                "description": "Key example of pickers in Windows “high contrast black” theme with label “Picker”, disabled picker with label “Disabled picker”, and selected picker with menu displaying options labeled “Option”, “Selected option” in selected state, and “Disabled option” in disabled state.",
+                "modified_on": "2021-12-03T22:57:03.703Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 22104,
+      "sort": 3,
+      "section": {
+        "id": "51904951-43b1-41a7-af50-e0a777d949b6",
+        "title": "Usage guidelines",
+        "text": null,
+        "visibility": "all",
+        "display_title": true,
+        "content": [
+          {
+            "id": 41593,
+            "sort": 1,
+            "collection": "usage_guideline",
+            "item": {
+              "id": "8f001c94-a88a-47bd-945b-5716d9041bed",
+              "title": "Include a label",
+              "text": "Every picker should have a label. A picker without a label is ambiguous and not accessible.",
+              "description_do": null,
+              "description_dont": null,
+              "background_color_do": null,
+              "background_color_dont": null,
+              "image_do": {
+                "width": 688,
+                "id": "a3c6a095-4032-4340-9e6f-b31bc9a2b353",
+                "filename_download": "picker_usage-guidelines_include-label_do@2x_4k8n12XNN6VQ6x445GdK4a.png",
+                "height": 320,
+                "description": "Key example showing the correct usage of a picker label. A picker with the label Country of birth and the selected value of United States.",
+                "modified_on": "2021-02-25T20:54:06.372Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              },
+              "image_dont": {
+                "width": 688,
+                "id": "85107bed-429c-4adb-8299-3c632237b86a",
+                "filename_download": "picker_usage-guidelines_include-label_dont@2x_4uO6ZbTUS3ZVCMRJ1NwjPl.png",
+                "height": 320,
+                "description": "Key example showing the correct usage of a picker without a label. A picker with no label and the selected value of United States.",
+                "modified_on": "2021-02-25T20:54:06.406Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              }
+            }
+          },
+          {
+            "id": 41594,
+            "sort": 2,
+            "collection": "usage_guideline",
+            "item": {
+              "id": "57d675dc-dbe6-4754-88a0-22b9b65c9823",
+              "title": "Review label-less designs",
+              "text": "In rare cases where context is sufficient and a label could be absent, make sure to have the design reviewed and approved by an accessibility expert. These should still include an aria-label in HTML (depending on the context, “aria-label” or “aria-labelledby”).",
+              "description_do": null,
+              "description_dont": null,
+              "background_color_do": null,
+              "background_color_dont": null,
+              "image_do": {
+                "width": 688,
+                "id": "ff4ba652-43c5-4f0a-b64e-8fdcde2f48bc",
+                "filename_download": "picker_usage-guidelines_review-label_do@2x_3ptVIqkxBqm3iZNtizSBwY.png",
+                "height": 320,
+                "description": "Key example showing the correct usage of a picker without a label. A quiet picker with the selected value of Sort by date.",
+                "modified_on": "2021-02-25T20:54:06.451Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              },
+              "image_dont": null
+            }
+          },
+          {
+            "id": 41595,
+            "sort": 3,
+            "collection": "usage_guideline",
+            "item": {
+              "id": "1634a5a0-0f47-475d-bc6b-30bf0065addb",
+              "title": "Keep menu items concise",
+              "text": "Keep menu items short and concise. Long menu items that cause text to wrap to multiple lines are discouraged. If text wrapping becomes a frequent concern, consider revising the text or use alternative UI patterns that will give your content more space.",
+              "description_do": null,
+              "description_dont": null,
+              "background_color_do": null,
+              "background_color_dont": null,
+              "image_do": {
+                "width": 688,
+                "id": "55bccf74-5393-4a4f-b327-744476b936a7",
+                "filename_download": "picker_usage-guidelines_menu-item-concise_do.png",
+                "height": 560,
+                "description": "A key example showing correct picker menu item text length. A picker in the open state with the label size and placeholder text Select an option followed by ellipsis, a menu with the items Small, Medium, and Large.",
+                "modified_on": "2021-12-03T22:57:03.802Z",
+                "folder": null
+              },
+              "image_dont": {
+                "width": 688,
+                "id": "f80a5f77-fae7-4149-883d-6a81369379a6",
+                "filename_download": "picker_usage-guidelines_menu-item-concise_dont.png",
+                "height": 628,
+                "description": "A key example showing incorrect picker menu item text length. A picker in the open state with the label size and placeholder text Select an option followed by ellipsis, a menu with the items Small (works best for mobile phones), Medium (all-purpose), and Large (select this one for printing).",
+                "modified_on": "2021-12-03T22:57:03.779Z",
+                "folder": null
+              }
+            }
+          },
+          {
+            "id": 41596,
+            "sort": 4,
+            "collection": "usage_guideline",
+            "item": {
+              "id": "9446c2c6-74cb-4ad7-8a21-82fae8faaf42",
+              "title": "Choose an appropriate width",
+              "text": "When possible, the field button width should be wide enough so that any chosen menu items can be displayed in full.\n",
+              "description_do": null,
+              "description_dont": null,
+              "background_color_do": null,
+              "background_color_dont": null,
+              "image_do": {
+                "width": 688,
+                "id": "62eac2f1-615f-4a48-b58b-d9b18b790a55",
+                "filename_download": "picker_usage-guidelines_field-button-width_do@2x_1yeVBpKPXhjWTKjIjSgUF0.png",
+                "height": 320,
+                "description": "Key example showing the correct width of a picker. A picker with the label Country and the selected value of United States of America.",
+                "modified_on": "2021-02-25T20:54:06.543Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              },
+              "image_dont": {
+                "width": 688,
+                "id": "c5b15918-915f-43a8-916c-dcb57fb9fe8f",
+                "filename_download": "picker_usage-guidelines_field-button-width_dont@2x_7Ab0TvJmRdR5gmp3jxc9wE.png",
+                "height": 320,
+                "description": "Key example showing the a picker with incorrect width. A picker with the label Country and the selected value of United Sta followed by ellipsis to show the truncation of the words United States.",
+                "modified_on": "2021-02-25T20:54:06.555Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              }
+            }
+          },
+          {
+            "id": 41597,
+            "sort": 5,
+            "collection": "usage_guideline",
+            "item": {
+              "id": "307336d7-0654-4ffd-97af-2dcd74f2e64c",
+              "title": "Follow capitalization rules",
+              "text": "Field labels, placeholder text, and menu items should be in sentence case.",
+              "description_do": null,
+              "description_dont": null,
+              "background_color_do": null,
+              "background_color_dont": null,
+              "image_do": {
+                "width": 688,
+                "id": "16726e7e-b82c-4a71-866c-788b0acfe9ae",
+                "filename_download": "picker_usage-guidelines_cap_do@2x.png",
+                "height": 320,
+                "description": "A key example of a picker with correct sentence case capitalization. A picker with the label Country of birth and the placeholder text Select a country followed by ellipsis.",
+                "modified_on": "2021-02-25T20:54:06.588Z",
+                "folder": null
+              },
+              "image_dont": {
+                "width": 688,
+                "id": "988e1c6d-10be-4180-9d25-d4e01f9010f6",
+                "filename_download": "picker_usage-guidelines_cap_dont@2x.png",
+                "height": 320,
+                "description": "A key example of a picker with incorrect title case capitalization. A picker with the label Country of Birth and the placeholder text Select a Country followed by ellipsis.",
+                "modified_on": "2021-02-25T20:54:06.600Z",
+                "folder": null
+              }
+            }
+          },
+          {
+            "id": 41598,
+            "sort": 6,
+            "collection": "usage_guideline",
+            "item": {
+              "id": "dc6ed50f-08dc-4e31-8a8a-ac4952125cdf",
+              "title": "Mark the minority of pickers in a form as required or optional",
+              "text": "In a single form, mark only the required fields or only the optional fields, depending on whichever is less frequent in the entire form. If most of the pickers are optional, only the required fields should be given an asterisk or have labels appended with “(required)”. If most of the pickers are required, only the optional fields should be appended with “(optional)”. An asterisk should never be used to note that a picker is optional. ",
+              "description_do": null,
+              "description_dont": null,
+              "background_color_do": null,
+              "background_color_dont": null,
+              "image_do": {
+                "width": 688,
+                "id": "fe791da2-0624-4ea6-a285-aaf21f82a475",
+                "filename_download": "picker_usage-guidelines_optional_do@2x.png",
+                "height": 448,
+                "description": "A key example showing correct usage of required and optional pickers. A picker with the label View by and the placeholder text Select an option followed by ellipsis. A picker with the label View by and the placeholder text Select an option followed by ellipsis. A picker with the label Country (optional) and the placeholder text Select an option followed by ellipsis.",
+                "modified_on": "2021-02-25T20:54:06.632Z",
+                "folder": null
+              },
+              "image_dont": {
+                "width": 688,
+                "id": "7ffc43d1-008d-438e-85d5-2a5ddd0ace4b",
+                "filename_download": "picker_usage-guidelines_optional_dont@2x.png",
+                "height": 448,
+                "description": "A key example showing incorrect usage of required and optional pickers. A picker with the label View by (required) and the placeholder text Select an option followed by ellipsis. A picker with the label View by (required) and the placeholder text Select an option followed by ellipsis. A picker with the label Country and the placeholder text Select an option followed by ellipsis.",
+                "modified_on": "2021-02-25T20:54:06.643Z",
+                "folder": null
+              }
+            }
+          },
+          {
+            "id": 41599,
+            "sort": 7,
+            "collection": "usage_guideline",
+            "item": {
+              "id": "f2209a79-ca30-4cc0-944f-e78ebf64e930",
+              "title": "Use help text to show context",
+              "text": "A picker’s description in the help text is can communicate __what__ to select or __how__ to select an option. This includes information such as:\n\n- An overall description of the picker options\n- Hints for what kind of information to choose\n- More context for why a user needs to make a selection\n\nThe help text’s message should not simply restate the same information in the label in order to prompt someone to interact with a picker. Don’t add help text if it isn’t actually relevant or meaningful to a user in order to try to maintain layout continuity with other inputs that require help text. ",
+              "description_do": null,
+              "description_dont": null,
+              "background_color_do": null,
+              "background_color_dont": null,
+              "image_do": {
+                "width": 688,
+                "id": "c4660908-f6a8-45e5-b26c-50c820f984b3",
+                "filename_download": "picker_usage-guidelines_help-text-context_do@2x_2KfuUT007ckWX3d3beeHhW.png",
+                "height": 336,
+                "description": "Key example of correct usage of help text with a picker. Picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Select the best way to contact you in case there’s an issue with your account.",
+                "modified_on": "2021-02-25T20:54:06.675Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              },
+              "image_dont": {
+                "width": 688,
+                "id": "00bd2ae4-db21-48a5-aa52-7c0261808edb",
+                "filename_download": "picker_usage-guidelines_help-text-context_dont@2x_ESYsKUnBONfBWtIR9WZLz.png",
+                "height": 320,
+                "description": "Key example of incorrect usage of help text with a picker. Picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Choose your preferred contact method.",
+                "modified_on": "2021-02-25T20:54:06.687Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              }
+            }
+          },
+          {
+            "id": 41600,
+            "sort": 8,
+            "collection": "usage_guideline",
+            "item": {
+              "id": "812f8ade-e500-465d-86ff-9d01f5b6b149",
+              "title": "Switch help text with error text",
+              "text": "The help text area also displays an error message. When a picker already includes help text and an error is triggered, the help text is replaced with error text. Once the error is resolved, the help text description reappears below the picker. \n\nSince one gets replaced by the other, the language of the help text and error text need to work together to convey the same messaging. Help text explains the requirement or adds supplementary context for how to complete the interaction. Error text tells a user how to fix the error by re-stating the selection requirements or describing the necessary interaction. Make sure that the help text and the error text include the same essential information so that it isn’t lost if one replaces the other (e.g., minimum requirements).\n",
+              "description_do": null,
+              "description_dont": null,
+              "background_color_do": null,
+              "background_color_dont": null,
+              "image_do": {
+                "width": 688,
+                "id": "ca2b922c-3e73-4595-a81f-fe409ab1e42b",
+                "filename_download": "picker_usage-guidelines_error-text-replace_do@2x_1KQdA0RDoGIcXnosSVGzHr.png",
+                "height": 544,
+                "description": "Key example of correct usage of switching help text with error text in a picker. Required picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Select the best way to contact you in case there’s an issue with your account. Error message shown in red color, Select a contact method.",
+                "modified_on": "2021-02-25T20:54:06.716Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              },
+              "image_dont": {
+                "width": 688,
+                "id": "70d60acb-fc0a-44f7-9523-cc9a2179b489",
+                "filename_download": "picker_usage-guidelines_error-text-replace_dont@2x_5UM8rZOo8bedHMYxl4F0EA.png",
+                "height": 544,
+                "description": "Key example of incorrect usage of switching help text with error text in a picker. Required picker label, Preferred contact method. Prompt text, Select contact method… Help text shown in gray color, Select a contact method. Error text shown in red color, Select a contact method.",
+                "modified_on": "2021-02-25T20:54:06.726Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              }
+            }
+          },
+          {
+            "id": 41601,
+            "sort": 9,
+            "collection": "usage_guideline",
+            "item": {
+              "id": "12aaa22f-ea0e-48c0-bda7-62920550397d",
+              "title": "Write error text that shows a solution",
+              "text": "Write error messaging in a human-centered way by guiding a user and showing them a solution — don’t simply state what’s wrong and then leave them guessing as to how to resolve it. Ambiguous error messages can be frustrating and even shame-inducing for users. Also, keep in mind that something that a system may deem an error may not actually be perceived as an error to a user.\n\nError text should be written in 1-2 short, complete sentences and in a clear and straightforward way. End sentences with a period, and never with an exclamation point. For pickers, the nature of the error is often related to something that needs to be fixed for in-line validation, so a [helpful tone](/page/voice-and-tone/#Tone-spectrum) is most appropriate. For example, if someone were to miss selecting an option to note as their preferred contact method, write the error text like you’re offering a hint or a tip to help guide them to understand what needs to be selected: “Select a contact method.”\n",
+              "description_do": null,
+              "description_dont": null,
+              "background_color_do": null,
+              "background_color_dont": null,
+              "image_do": {
+                "width": 688,
+                "id": "8fb220c3-2f44-4ba4-a62e-3bb82dab7306",
+                "filename_download": "picker_usage-guidelines_error-text-solution_do@2x_6xjv0u9V0FB3wPc9kOILc9.png",
+                "height": 320,
+                "description": "Key example of correct way of writing an error message. Required picker, label Preferred contact method. Placeholder text prompt, Select contact method… Error text shown in red color, Select a contact method.",
+                "modified_on": "2021-02-25T20:54:06.756Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              },
+              "image_dont": {
+                "width": 688,
+                "id": "a3bf9ee8-d3f4-4980-9f67-aa0e61553fa8",
+                "filename_download": "picker_usage-guidelines_error-text-solution_dont@2x_20up2EK7pQzDMxPyeAceLy.png",
+                "height": 320,
+                "description": "Key example of correct way of writing an error message. Required picker, label Preferred contact method. Placeholder text prompt, Select contact method… Error text shown in red color, Invalid field.",
+                "modified_on": "2021-02-25T20:54:06.766Z",
+                "folder": {
+                  "id": "6b2e686c-0b66-4b5c-965a-317fbd9e272b",
+                  "name": "images"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 22105,
+      "sort": 4,
+      "section": {
+        "id": "ba157f89-0d02-4eb6-8738-6f9b687eda43",
+        "title": "Internationalization",
+        "text": null,
+        "visibility": "all",
+        "display_title": true,
+        "content": [
+          {
+            "id": 41602,
+            "sort": 0,
+            "collection": "internationalization",
+            "item": {
+              "id": "01f00779-468b-43b1-8ae7-01db2d048ad1",
+              "title": "RTL",
+              "text": "For RTL (right-to-left) languages, the layout of the picker is mirrored. Text and the checkmark are right-aligned while the chevron is left-aligned.",
+              "image_style": "standard",
+              "image_caption": null,
+              "background_color": null,
+              "desktop_image": {
+                "width": 688,
+                "id": "4a4fd27e-c1be-4ea7-bee5-3a8467ed6878",
+                "filename_download": "picker_internationalization_RTL@2x.png",
+                "height": 480,
+                "description": "Key example of picker internationalization for right-to-left languages. Layout of picker is mirrored, label and menu items are in Arabic.",
+                "modified_on": "2022-04-08T20:07:06.376Z",
+                "folder": null
+              },
+              "mobile_image": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 22106,
+      "sort": 5,
+      "section": {
+        "id": "251a028b-85e3-4112-a9d0-5e89313e3c83",
+        "title": "Keyboard interactions",
+        "text": "",
+        "visibility": "all",
+        "display_title": true,
+        "content": [
+          {
+            "id": 42711,
+            "sort": 1,
+            "collection": "keyboard_interactions",
+            "item": {
+              "id": "81eb2fbf-530e-4b45-a231-036e18afc134",
+              "list": [
+                {
+                  "key": "Space or Down Arrow",
+                  "interaction": "Opens the popover menu. The focus is set on the menu item selected."
+                }
+              ],
+              "text": "When the popover menu is closed:"
+            }
+          },
+          {
+            "id": 42712,
+            "sort": 2,
+            "collection": "keyboard_interactions",
+            "item": {
+              "id": "26ac5ba3-f5a5-4123-9b2e-6d4840faf01f",
+              "list": [
+                {
+                  "key": "Space",
+                  "interaction": "Selects the menu item in focus, closes the popover menu and moves focus to the field button."
+                },
+                {
+                  "key": "Up or Down Arrow",
+                  "interaction": "Moves focus to previous or next menu item in the popover. Does not loop when the last or first menu item is reached."
+                },
+                {
+                  "key": "Esc",
+                  "interaction": "Closes the popover menu and moves focus to the field button."
+                }
+              ],
+              "text": "When the popover menu is open:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 22107,
+      "sort": 6,
+      "section": {
+        "id": "de7f8666-b9bf-437c-ba5a-eb6f788a4867",
+        "title": "Changelog",
+        "text": null,
+        "visibility": "all",
+        "display_title": true,
+        "content": [
+          {
+            "id": 41603,
+            "sort": 0,
+            "collection": "changelog_placeholder",
+            "item": {
+              "id": "42ed9b90-ca22-4d0c-91ed-4a7473385eed",
+              "title": "For Position Only"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 22108,
+      "sort": 7,
+      "section": {
+        "id": "cb3f1a13-bd6f-4aae-917e-7818658e7965",
+        "title": "Design checklist",
+        "text": null,
+        "visibility": "all",
+        "display_title": true,
+        "content": [
+          {
+            "id": 41604,
+            "sort": 0,
+            "collection": "design_checklist_placeholder",
+            "item": {
+              "id": "24cb0b14-b317-40ac-a30e-73d3ee0c512d",
+              "title": "For Position Only"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "options": [
+    {
+      "values": "text / nothing",
+      "sort": 0,
+      "description": null,
+      "property": "label",
+      "id": "5a2e7357-a257-46b5-813f-c0d320312d2c",
+      "default": "–"
+    },
+    {
+      "values": "top /side",
+      "sort": 1,
+      "description": "",
+      "property": "label position",
+      "id": "2a14867c-73f2-47cb-866d-8b8c2e2b4278",
+      "default": "top"
+    },
+    {
+      "values": "text",
+      "sort": 2,
+      "description": "",
+      "property": "placeholder",
+      "id": "896d3b50-b923-4eba-babb-b5a68f69777b",
+      "default": "–"
+    },
+    {
+      "values": "text / nothing",
+      "sort": 3,
+      "description": "",
+      "property": "value",
+      "id": "7038561b-b761-4e5a-bd13-2881e7866fcb",
+      "default": "–"
+    },
+    {
+      "values": "number",
+      "sort": 4,
+      "description": "Not applicable to quiet picker.",
+      "property": "width",
+      "id": "bf50e59c-3580-4b6d-a967-ba61abf0c98e",
+      "default": "–"
+    },
+    {
+      "values": "small / medium / large / extra-large",
+      "sort": 5,
+      "description": null,
+      "property": "size",
+      "id": "496c2e5e-46e8-4196-9b70-3578cab9fdd9",
+      "default": "medium"
+    },
+    {
+      "values": "yes / no",
+      "sort": 6,
+      "description": "",
+      "property": "is quiet",
+      "id": "a2a3c4aa-fa38-471c-a68a-d09dae29fdb4",
+      "default": "no"
+    },
+    {
+      "values": "text / icon/ nothing",
+      "sort": 7,
+      "description": "",
+      "property": "necessity indicator",
+      "id": "dc80402e-df9c-43db-ba3a-d1c8d0d48020",
+      "default": "icon"
+    },
+    {
+      "values": "yes / no",
+      "sort": 8,
+      "description": "",
+      "property": "is required",
+      "id": "eec62568-acab-4cdf-a0db-b7ea97c3ba82",
+      "default": "no"
+    },
+    {
+      "values": "popover / tray",
+      "sort": 9,
+      "description": "The option to display the menu in a tray is available on mobile devices only.",
+      "property": "menu container",
+      "id": "65065a24-13f1-4c80-b22a-a80563b0cf5b",
+      "default": "popover"
+    },
+    {
+      "values": "yes / no",
+      "sort": 10,
+      "description": "",
+      "property": "is error",
+      "id": "5e407140-a4ec-440f-be8f-cefbe35ecfb7",
+      "default": "no"
+    },
+    {
+      "values": "yes / no",
+      "sort": 11,
+      "description": "",
+      "property": "is disabled",
+      "id": "f6cf6f94-a336-4512-b60d-324e0722e2e4",
+      "default": "no"
+    },
+    {
+      "values": "yes / no",
+      "sort": 12,
+      "description": "",
+      "property": "is read-only",
+      "id": "8a58de06-0a66-4bb7-8666-92d380c766be",
+      "default": "no"
+    },
+    {
+      "values": "text / nothing",
+      "sort": 13,
+      "description": null,
+      "property": "description",
+      "id": "edf78ea7-cda4-419f-a74b-600a59505529",
+      "default": "nothing"
+    },
+    {
+      "values": "text / nothing",
+      "sort": 14,
+      "description": "",
+      "property": "error message",
+      "id": "8ee0cc13-c477-437f-a503-896f9452948d",
+      "default": "nothing"
+    }
+  ]
+}
