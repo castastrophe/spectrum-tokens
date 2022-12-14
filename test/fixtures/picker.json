@@ -10,21 +10,21 @@
     {
       "values": "top /side",
       "sort": 1,
-      "description": "",
+      "description": null,
       "property": "label position",
       "default": "top"
     },
     {
       "values": "text",
       "sort": 2,
-      "description": "",
+      "description": null,
       "property": "placeholder",
       "default": "–"
     },
     {
       "values": "text / nothing",
       "sort": 3,
-      "description": "",
+      "description": null,
       "property": "value",
       "default": "–"
     },
@@ -45,21 +45,21 @@
     {
       "values": "yes / no",
       "sort": 6,
-      "description": "",
+      "description": null,
       "property": "is quiet",
       "default": "no"
     },
     {
       "values": "text / icon/ nothing",
       "sort": 7,
-      "description": "",
+      "description": null,
       "property": "necessity indicator",
       "default": "icon"
     },
     {
       "values": "yes / no",
       "sort": 8,
-      "description": "",
+      "description": null,
       "property": "is required",
       "default": "no"
     },
@@ -73,21 +73,21 @@
     {
       "values": "yes / no",
       "sort": 10,
-      "description": "",
+      "description": null,
       "property": "is error",
       "default": "no"
     },
     {
       "values": "yes / no",
       "sort": 11,
-      "description": "",
+      "description": null,
       "property": "is disabled",
       "default": "no"
     },
     {
       "values": "yes / no",
       "sort": 12,
-      "description": "",
+      "description": null,
       "property": "is read-only",
       "default": "no"
     },
@@ -101,7 +101,7 @@
     {
       "values": "text / nothing",
       "sort": 14,
-      "description": "",
+      "description": null,
       "property": "error message",
       "default": "nothing"
     }

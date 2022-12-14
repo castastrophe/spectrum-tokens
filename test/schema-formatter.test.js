@@ -7,5 +7,6 @@ const readJSON = async (filePath) =>
 test("Schema formatter", async () => {
   const pickerSchema = await readJSON("schema/components/picker.json");
   const pickerFixture = await readJSON("test/fixtures/picker.json");
-  expect(schemaFormatter(pickerSchema)).toBe(true);
+//   console.log(schemaFormatter(pickerSchema));
+  expect(schemaFormatter(pickerSchema)).toBe(pickerFixture);
 });
