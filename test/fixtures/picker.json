@@ -8,14 +8,14 @@
       "default": "–"
     },
     {
-      "values": "top /side",
+      "values": "top / side",
       "sort": 1,
       "description": null,
       "property": "label position",
       "default": "top"
     },
     {
-      "values": "text",
+      "values": "text / nothing",
       "sort": 2,
       "description": null,
       "property": "placeholder",
@@ -50,7 +50,7 @@
       "default": "no"
     },
     {
-      "values": "text / icon/ nothing",
+      "values": "text / icon / nothing",
       "sort": 7,
       "description": null,
       "property": "necessity indicator",
@@ -96,14 +96,14 @@
       "sort": 13,
       "description": null,
       "property": "description",
-      "default": "nothing"
+      "default": "–"
     },
     {
       "values": "text / nothing",
       "sort": 14,
       "description": null,
       "property": "error message",
-      "default": "nothing"
+      "default": "–"
     }
   ]
 }

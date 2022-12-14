@@ -12,7 +12,7 @@
       "enum": ["top", "side"]
     },
     "placeholder": { "type": "string" },
-    "value": { "type": ["string", "null"] },
+    "value": { "type": "string" },
     "width": {
       "type": "number",
       "description": "Not applicable to quiet picker."
@@ -20,20 +20,26 @@
     "size": { "type": "string", "enum": ["s", "m", "l", "xl"], "default": "m" },
     "isQuiet": { "type": "boolean", "default": false },
     "necessityIndicator": {
-      "type": ["string", "null"],
+      "type": "string",
       "enum": ["text", "icon"],
       "default": "icon"
     },
     "isRequired": { "type": "boolean", "default": false },
     "menuContainer": {
       "type": "string",
+      "description": "The option to display the menu in a tray is available on mobile devices only.",
       "enum": ["popover", "tray"],
       "default": "popover"
     },
-    "isDisabled": { "type": "boolean", "default": false },
     "isError": { "type": "boolean", "default": false },
-    "isReadOnly": { "type": "boolean", "default": false },
-    "description": { "type": ["string", "null"], "default": null },
-    "errorMessage": { "type": ["string", "null"], "default": null }
-  }
+    "isDisabled": { "type": "boolean", "default": false },
+    "isReadOnly": {
+      "title": "is read-only",
+      "type": "boolean",
+      "default": false
+    },
+    "description": { "type": "string" },
+    "errorMessage": { "type": "string" }
+  },
+  "required": ["labelPosition", "size", "menuContainer"]
 }
