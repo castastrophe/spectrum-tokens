@@ -1,6 +1,6 @@
 {
   "name": "@adobe/spectrum-tokens",
-  "version": "12.9.0",
+  "version": "0.0.0-in-field-button-20230530211053",
   "description": "Design tokens for Spectrum, Adobe's design system",
   "type": "module",
   "main": "tasks/buildSpectrumTokens.js",

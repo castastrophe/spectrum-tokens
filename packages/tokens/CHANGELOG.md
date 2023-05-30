@@ -1,5 +1,11 @@
 # @adobe/spectrum-tokens
 
+## 0.0.0-in-field-button-20230530211053
+
+### Minor Changes
+
+- 23104ce: New tokens for in-field button
+
 ## 12.9.0
 
 ### Minor Changes
