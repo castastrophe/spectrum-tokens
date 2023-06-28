@@ -1,5 +1,17 @@
 # @adobe/spectrum-tokens
 
+## 0.0.0-table-20230628201618
+
+### Patch Changes
+
+- 9ccd290: updated table-selected-row-background-opacity to fix bug
+
+  ## Token Diff
+
+  Update values (1):
+
+  - `table-selected-row-background-opacity`: `0.15` -> `0.1`
+
 ## 0.0.0-table-20230621212504
 
 ### Minor Changes
